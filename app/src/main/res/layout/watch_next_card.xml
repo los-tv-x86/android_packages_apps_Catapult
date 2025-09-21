@@ -21,6 +21,15 @@
         android:layout_height="@dimen/watch_next_card_height"
         android:duplicateParentState="true">
 
+
+        <ImageView
+            android:id="@+id/app_banner_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_border_only"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop" />
+
         <ImageView
             android:id="@+id/app_banner"
             android:layout_width="match_parent"
@@ -29,6 +38,16 @@
             android:backgroundTint="@android:color/black"
             android:clipToOutline="true"
             android:importantForAccessibility="no"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/app_banner_small"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@android:color/black"
             android:visibility="gone" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
