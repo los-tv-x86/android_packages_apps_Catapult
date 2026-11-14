@@ -38,4 +38,68 @@
     <string name="connected">Свързано</string>
     <string name="mic_assistant">Търсене с микрофон</string>
     <string name="keyboard_assistant">Търсене с клавиатура</string>
+    <string name="system_settings">Системни настройки</string>
+    <string name="launcher_settings">Настройки на лаунчъра</string>
+    <string name="appearance">Външен вид</string>
+    <string name="background">Фон</string>
+    <string name="background_default">По подразбиране</string>
+    <string name="background_image">Изображение</string>
+    <string name="select_image">Изберете изображение</string>
+    <string name="selected_image">Изображението е избрано</string>
+    <string name="additional">Допълнително</string>
+    <string name="external_launcher">Външен лаунчър</string>
+    <string name="external_launcher_hint">Изберете приложение за начален лаунчър. Catapult ще продължи да обработва бутона Home и скорошните приложения.</string>
+    <string name="external_launcher_none">Да не се използва външен лаунчър</string>
+    <string name="external_launcher_not_found">Не са намерени други приложения за начален лаунчър.</string>
+    <string name="external_launcher_picker">Catapult: избор на лаунчър</string>
+    <string name="recent_apps">Скорошни приложения</string>
+    <string name="recent_apps_enabled">Показване на наслагване със скорошни приложения</string>
+    <string name="recent_apps_size">Размер на картите</string>
+    <string name="recent_apps_size_percent">%d%% от височината на екрана</string>
+    <string name="recent_apps_thumbnails">Показване на миниатюри</string>
+    <string name="recent_apps_thumbnails_hint">Преглед на последния екран на приложението в картите</string>
+    <string name="app_info">Информация за приложението</string>
+    <string name="hide_app">Скрий това приложение</string>
+    <string name="hidden_apps">Скрити приложения</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Карти на приложенията</string>
+    <string name="app_cards_size">Размер на картите на приложенията</string>
+    <string name="favorite_cards_size">Размер на картите на любими</string>
+    <string name="watch_next_cards_size">Размер на картите на каналите</string>
+    <string name="card_corner_radius">Радиус на ъглите на картите</string>
+    <string name="all_apps_grid_view">Мрежа с всички приложения</string>
+    <string name="all_apps_grid_columns">Колони на мрежата</string>
+    <string name="remove_from_channel">Премахване от %1$s</string>
+    <string name="top_bar">Горна лента</string>
+    <string name="show_search_buttons">Показване на бутоните за търсене</string>
+    <string name="show_vpn_button">Показване на бутона за VPN</string>
+    <string name="top_bar_auto_hide">Автоматично скриване на горната лента при превъртане</string>
+    <string name="show_clock">Показване на часовника</string>
+    <string name="clock_size">Размер на часовника</string>
+    <string name="recent_tasks_title">Скорошни задачи (%1$d)</string>
+    <string name="close_all">Затваряне на всички</string>
+
+
+    <string name="android_settings">Настройки на Android</string>
+    <string name="background_dynamic">Динамичен (фокусиран плочка)</string>
+    <string name="background_blur_strength">Сила на замразяването</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Производителност на анимациите</string>
+    <string name="background_auto_perf">Адаптивна производителност</string>
+    <string name="background_auto_perf_t0">Пълни ефекти: GPU замразяване, плавен Ken Burns</string>
+    <string name="background_auto_perf_t1">Балансирано: Ken Burns при 20 fps</string>
+    <string name="background_auto_perf_t2">Леко: замразяването е преместено на CPU</string>
+    <string name="background_auto_perf_t3">Минимално: Ken Burns изключен, замразяването е запазено</string>
+    <string name="background_blur_prebaked">Предварително изчислено замразяване (CPU, пести GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns при 20 fps</string>
+    <string name="background_kb_pause">Пауза на Ken Burns при смяна на фона</string>
+    <string name="ok">Добре</string>
+    <string name="overlay_title">Припокриване на Catapult</string>
+    <string name="overlay_hint">Двойно натискане на HOME, ESC или BACK затваря</string>
+    <string name="remove_program_failed">Елементът не можа да бъде премахнат</string>
+    <string name="vpn_no_clients">Няма намерени VPN клиенти</string>
+    <string name="vpn">VPN</string>
+
 </resources>

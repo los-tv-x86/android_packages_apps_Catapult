@@ -14,7 +14,6 @@
     <string name="remove_favorite">Αφαίρεση αγαπημένου</string>
     <string name="watch_next">Δείτε στη συνέχεια</string>
     <string name="modify_channels">Τροποποίηση καναλιών</string>
-    <string name="channel_title">%1$s: %2$s</string>
     <string name="order_channels_guide">Για να τακτοποιήσετε τα κανάλια, πατήστε παρατεταμένα ένα επιθυμητό κανάλι και μετακινήστε το στην επιθυμητή θέση.</string>
     <string name="search">Αναζήτηση</string>
     <string name="modify_favorites">Τροποποιήστε τις αγαπημένες σας εφαρμογές</string>
@@ -38,4 +37,71 @@
     <string name="connected">Συνδεδεμένο</string>
     <string name="mic_assistant">Αναζήτηση με μικρόφωνο</string>
     <string name="keyboard_assistant">Αναζήτηση με πληκτρολόγιο</string>
+    <string name="system_settings">Ρυθμίσεις συστήματος</string>
+    <string name="launcher_settings">Ρυθμίσεις launcher</string>
+    <string name="appearance">Εμφάνιση</string>
+    <string name="background">Φόντο</string>
+    <string name="background_default">Προεπιλογή</string>
+    <string name="background_image">Εικόνα</string>
+    <string name="select_image">Επιλέξτε εικόνα</string>
+    <string name="selected_image">Εικόνα επιλέχθηκε</string>
+    <string name="additional">Πρόσθετα</string>
+    <string name="external_launcher">Εξωτερικός εκκινητής</string>
+    <string name="external_launcher_hint">Επιλέξτε μια εφαρμογή ως αρχικό εκκινητή. Το Catapult θα συνεχίσει να χειρίζεται το κουμπί Home και τις πρόσφατες εφαρμογές.</string>
+    <string name="external_launcher_none">Μη χρήση εξωτερικού εκκινητή</string>
+    <string name="external_launcher_not_found">Δεν βρέθηκαν άλλες εφαρμογές αρχικού εκκινητή.</string>
+    <string name="external_launcher_picker">Catapult: επιλογή εκκινητή</string>
+    <string name="recent_apps">Πρόσφατες εφαρμογές</string>
+    <string name="recent_apps_enabled">Εμφάνιση επικάλυψης πρόσφατων εφαρμογών</string>
+    <string name="recent_apps_size">Μέγεθος καρτών</string>
+    <string name="recent_apps_size_percent">%d%% του ύψους οθόνης</string>
+    <string name="recent_apps_thumbnails">Εμφάνιση μικρογραφιών</string>
+    <string name="recent_apps_thumbnails_hint">Προεπισκόπηση της τελευταίας οθόνης της εφαρμογής στις κάρτες</string>
+    <string name="app_info">Πληροφορίες εφαρμογής</string>
+    <string name="hide_app">Απόκρυψη εφαρμογής</string>
+    <string name="hidden_apps">Κρυφές εφαρμογές</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Κάρτες εφαρμογών</string>
+    <string name="app_cards_size">Μέγεθος καρτών εφαρμογών</string>
+    <string name="favorite_cards_size">Μέγεθος καρτών αγαπημένων</string>
+    <string name="watch_next_cards_size">Μέγεθος καρτών καναλιού</string>
+    <string name="card_corner_radius">Ακτίνα γωνιών των καρτών</string>
+    <string name="all_apps_grid_view">Πλέγμα όλων των εφαρμογών</string>
+    <string name="all_apps_grid_columns">Στήλες πλέγματος</string>
+    <string name="remove_from_channel">Κατάργηση από %1$s</string>
+    <string name="top_bar">Πάνω γραμμή</string>
+    <string name="show_search_buttons">Εμφάνιση κουμπιών αναζήτησης</string>
+    <string name="show_vpn_button">Εμφάνιση κουμπιού VPN</string>
+    <string name="top_bar_auto_hide">Αυτόματη απόκρυψη της πάνω γραμμής κατά την κύλιση</string>
+    <string name="show_clock">Εμφάνιση ρολογιού</string>
+    <string name="clock_size">Μέγεθος ρολογιού</string>
+    <string name="recent_tasks_title">Πρόσφατες εργασίες (%1$d)</string>
+    <string name="close_all">Κλείσιμο όλων</string>
+
+
+    <string name="android_settings">Ρυθμίσεις Android</string>
+    <string name="background_dynamic">Δυναμικό (εστίασε σε πλακάκι)</string>
+    <string name="background_blur_strength">Ένταση θόλωσης</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Απόδοση κινούμενων σχεδίων</string>
+    <string name="background_auto_perf">Προσαρμοστική απόδοση</string>
+    <string name="background_auto_perf_t0">Πλήρη εφέ: θόλωση GPU, ομαλό Ken Burns</string>
+    <string name="background_auto_perf_t1">Ισορροπημένο: Ken Burns στα 20 fps</string>
+    <string name="background_auto_perf_t2">Ελαφρύ: η θόλωση μεταφέρθηκε σε CPU</string>
+    <string name="background_auto_perf_t3">Ελάχιστο: Ken Burns ανενεργό, θόλωση διατηρείται</string>
+    <string name="background_blur_prebaked">Προ-υπολογισμένη θόλωση (CPU, εξοικονομεί GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns στα 20 fps</string>
+    <string name="background_kb_pause">Παύση του Ken Burns κατά τις μεταβάσεις φόντου</string>
+    <string name="ok">ΟΚ</string>
+    <string name="overlay_title">Επίστρωση Catapult</string>
+    <string name="overlay_hint">Διπλό πάτημα HOME, ESC ή BACK για κλείσιμο</string>
+    <string name="remove_program_failed">Δεν ήταν δυνατή η κατάργηση αυτού του στοιχείου</string>
+    <string name="vpn_no_clients">Δεν βρέθηκαν πελάτες VPN</string>
+    <string name="vpn">VPN</string>
+
+
+    <string name="channel_title">%1$s: %2$s</string>
+
 </resources>

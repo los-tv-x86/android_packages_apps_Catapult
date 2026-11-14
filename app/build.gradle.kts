@@ -1,87 +1,70 @@
 /*
- * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import org.lineageos.generatebp.GenerateBpPluginExtension
-import org.lineageos.generatebp.models.Module
-
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.lineageos.generatebp)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "org.lineageos.tv.launcher"
-    compileSdk = 36
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.lineageos.tv.launcher"
         minSdk = 31
-        targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 34
+        versionCode = 140001
+        versionName = "14.0.1"
     }
+
+     signingConfigs {
+         create("platform") {
+             storeFile = file("platform.jks")
+             storePassword = "android"
+             keyAlias = "platform"
+             keyPassword = "android"
+         }
+     }
 
     buildTypes {
         release {
-            // Enables code shrinking, obfuscation, and optimization.
             isMinifyEnabled = true
-
-            // Enables resource shrinking.
             isShrinkResources = true
-
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("platform")
         }
-
         debug {
-            // Append .dev to package name so we won't conflict with AOSP build.
             applicationIdSuffix = ".dev"
         }
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "1.8"
     }
 }
 
 dependencies {
-    compileOnly(fileTree(mapOf("dir" to "../libs", "include" to listOf("*.jar"))))
+    compileOnly(files("../libs/android.jar", "../libs/SettingsLib.jar"))
 
-    implementation(libs.androidx.activity.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.leanback)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.preference)
-    implementation(libs.androidx.tvprovider)
-    implementation(libs.coil)
-    implementation(libs.material)
-}
-
-configure<GenerateBpPluginExtension> {
-    targetSdk.set(android.defaultConfig.targetSdk!!)
-    minSdk.set(android.defaultConfig.minSdk!!)
-    availableInAOSP.set { module: Module ->
-        when {
-            module.group.startsWith("androidx") -> true
-            module.group.startsWith("org.jetbrains") -> true
-            module.group == "com.google.android.material" -> true
-            module.group == "com.google.auto.value" -> true
-            module.group == "com.google.code.findbugs" -> true
-            module.group == "com.google.errorprone" -> true
-            module.group == "com.google.guava" -> true
-            module.group == "junit" -> true
-            else -> false
-        }
-    }
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.activity:activity-ktx:1.7.2")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("androidx.leanback:leanback:1.2.0-alpha04")
+    implementation("androidx.preference:preference:1.2.1")
+    implementation("androidx.tvprovider:tvprovider:1.0.0")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("io.coil-kt:coil:2.6.0")
+    implementation("androidx.palette:palette-ktx:1.0.0")
 }

@@ -38,4 +38,68 @@
     <string name="connected">Connesso</string>
     <string name="mic_assistant">Cerca usando il microfono</string>
     <string name="keyboard_assistant">Cerca usando la tastiera</string>
+    <string name="system_settings">Impostazioni di sistema</string>
+    <string name="launcher_settings">Impostazioni del launcher</string>
+    <string name="appearance">Aspetto</string>
+    <string name="background">Sfondo</string>
+    <string name="background_default">Predefinito</string>
+    <string name="background_image">Immagine</string>
+    <string name="select_image">Seleziona immagine</string>
+    <string name="selected_image">Immagine selezionata</string>
+    <string name="additional">Extra</string>
+    <string name="external_launcher">Launcher esterno</string>
+    <string name="external_launcher_hint">Seleziona un\'app da usare come launcher principale. Catapult continuerà a gestire il tasto Home e le app recenti.</string>
+    <string name="external_launcher_none">Non usare un launcher esterno</string>
+    <string name="external_launcher_not_found">Nessuna altra app launcher principale trovata.</string>
+    <string name="external_launcher_picker">Catapult: scegli launcher</string>
+    <string name="recent_apps">App recenti</string>
+    <string name="recent_apps_enabled">Mostra overlay app recenti</string>
+    <string name="recent_apps_size">Dimensione schede</string>
+    <string name="recent_apps_size_percent">%d%% dell\'altezza dello schermo</string>
+    <string name="recent_apps_thumbnails">Mostra miniature</string>
+    <string name="recent_apps_thumbnails_hint">Anteprima dell\'ultima schermata dell\'app sulle schede</string>
+    <string name="app_info">Informazioni app</string>
+    <string name="hide_app">Nascondi questa app</string>
+    <string name="hidden_apps">App nascoste</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Schede delle app</string>
+    <string name="app_cards_size">Dimensione delle schede delle app</string>
+    <string name="favorite_cards_size">Dimensione delle schede dei preferiti</string>
+    <string name="watch_next_cards_size">Dimensione delle carte del canale</string>
+    <string name="card_corner_radius">Raggio degli angoli delle schede</string>
+    <string name="all_apps_grid_view">Griglia di tutte le app</string>
+    <string name="all_apps_grid_columns">Colonne della griglia</string>
+    <string name="remove_from_channel">Rimuovi da %1$s</string>
+    <string name="top_bar">Barra superiore</string>
+    <string name="show_search_buttons">Mostra i pulsanti di ricerca</string>
+    <string name="show_vpn_button">Mostra il pulsante VPN</string>
+    <string name="top_bar_auto_hide">Nascondi automaticamente la barra superiore allo scorrimento</string>
+    <string name="show_clock">Mostra l\'orologio</string>
+    <string name="clock_size">Dimensione dell\'orologio</string>
+    <string name="recent_tasks_title">Attività recenti (%1$d)</string>
+    <string name="close_all">Chiudi tutto</string>
+
+
+    <string name="android_settings">Impostazioni Android</string>
+    <string name="background_dynamic">Dinamico ( riquadro messo a fuoco)</string>
+    <string name="background_blur_strength">Intensità della sfocatura</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Prestazioni animazioni</string>
+    <string name="background_auto_perf">Prestazioni adattive</string>
+    <string name="background_auto_perf_t0">Effetti completi: sfocatura GPU, Ken Burns fluido</string>
+    <string name="background_auto_perf_t1">Bilanciato: Ken Burns a 20 fps</string>
+    <string name="background_auto_perf_t2">Leggero: sfocatura sulla CPU</string>
+    <string name="background_auto_perf_t3">Minimo: Ken Burns disattivato, sfocatura attiva</string>
+    <string name="background_blur_prebaked">Sfocatura pre-calcolata (CPU, risparmia GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns a 20 fps</string>
+    <string name="background_kb_pause">Pausa di Ken Burns durante i cambi di sfondo</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Overlay Catapult</string>
+    <string name="overlay_hint">Premi due volte HOME, ESC o BACK per chiudere</string>
+    <string name="remove_program_failed">Impossibile rimuovere questo elemento</string>
+    <string name="vpn_no_clients">Nessun client VPN trovato</string>
+    <string name="vpn">VPN</string>
+
 </resources>

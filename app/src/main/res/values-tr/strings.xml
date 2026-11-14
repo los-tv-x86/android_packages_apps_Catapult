@@ -38,4 +38,68 @@
     <string name="connected">Bağlandı</string>
     <string name="mic_assistant">Mikrofon kullanarak ara</string>
     <string name="keyboard_assistant">Klavye kullanarak ayarla</string>
+    <string name="system_settings">Sistem ayarları</string>
+    <string name="launcher_settings">Launcher ayarları</string>
+    <string name="appearance">Görünüm</string>
+    <string name="background">Arka plan</string>
+    <string name="background_default">Varsayılan</string>
+    <string name="background_image">Görüntü</string>
+    <string name="select_image">Görüntü seçin</string>
+    <string name="selected_image">Görüntü seçildi</string>
+    <string name="additional">Ek</string>
+    <string name="external_launcher">Harici başlatıcı</string>
+    <string name="external_launcher_hint">Ana başlatıcı olarak kullanılacak bir uygulama seçin. Catapult, Home düğmesini ve son uygulamaları işlemeye devam edecektir.</string>
+    <string name="external_launcher_none">Harici başlatıcı kullanma</string>
+    <string name="external_launcher_not_found">Başka ana başlatıcı uygulaması bulunamadı.</string>
+    <string name="external_launcher_picker">Catapult: başlatıcı seç</string>
+    <string name="recent_apps">Son uygulamalar</string>
+    <string name="recent_apps_enabled">Son uygulamalar katmanını göster</string>
+    <string name="recent_apps_size">Kart boyutu</string>
+    <string name="recent_apps_size_percent">%d%% ekran yüksekliği</string>
+    <string name="recent_apps_thumbnails">Küçük resimleri göster</string>
+    <string name="recent_apps_thumbnails_hint">Kartlarda uygulamanın son ekranının önizlemesi</string>
+    <string name="app_info">Uygulama bilgileri</string>
+    <string name="hide_app">Bu uygulamayı gizle</string>
+    <string name="hidden_apps">Gizlenen uygulamalar</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Uygulama kartları</string>
+    <string name="app_cards_size">Uygulama kartlarının boyutu</string>
+    <string name="favorite_cards_size">Favori kartların boyutu</string>
+    <string name="watch_next_cards_size">Kanal kartı boyutu</string>
+    <string name="card_corner_radius">Kart köşe yarıçapı</string>
+    <string name="all_apps_grid_view">Tüm uygulamalar ızgarası</string>
+    <string name="all_apps_grid_columns">Izgara sütunları</string>
+    <string name="remove_from_channel">%1$s listesinden kaldır</string>
+    <string name="top_bar">Üst çubuk</string>
+    <string name="show_search_buttons">Arama düğmelerini göster</string>
+    <string name="show_vpn_button">VPN düğmesini göster</string>
+    <string name="top_bar_auto_hide">Kaydırırken üst çubuğu otomatik gizle</string>
+    <string name="show_clock">Saati göster</string>
+    <string name="clock_size">Saat boyutu</string>
+    <string name="recent_tasks_title">Son görevler (%1$d)</string>
+    <string name="close_all">Tümünü kapat</string>
+
+
+    <string name="android_settings">Android ayarları</string>
+    <string name="background_dynamic">Dinamik (odaklanan döşeme)</string>
+    <string name="background_blur_strength">Bulanıklık şiddeti</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Animasyon performansı</string>
+    <string name="background_auto_perf">Uyarlanabilir performans</string>
+    <string name="background_auto_perf_t0">Tam efektler: GPU bulanıklığı, akıcı Ken Burns</string>
+    <string name="background_auto_perf_t1">Dengeli: Ken Burns 20 fps</string>
+    <string name="background_auto_perf_t2">Hafif: bulanıklık CPU\'ya taşındı</string>
+    <string name="background_auto_perf_t3">Minimum: Ken Burns kapalı, bulanıklık korundu</string>
+    <string name="background_blur_prebaked">Önden hesaplanan bulanıklık (CPU, GPU\'yu korur)</string>
+    <string name="background_kb_low_fps">Ken Burns 20 fps</string>
+    <string name="background_kb_pause">Arka plan geçişlerinde Ken Burns\'ü duraklat</string>
+    <string name="ok">Tamam</string>
+    <string name="overlay_title">Catapult Overlay</string>
+    <string name="overlay_hint">Kapatmak için HOME, ESC veya BACK tuşuna çift basın</string>
+    <string name="remove_program_failed">Bu öğe kaldırılamadı</string>
+    <string name="vpn_no_clients">VPN istemcisi bulunamadı</string>
+    <string name="vpn">VPN</string>
+
 </resources>

@@ -6,9 +6,14 @@
 package org.lineageos.tv.launcher.view
 
 import android.content.Context
+import android.content.Intent
+import android.graphics.Paint
+import android.net.Uri
+import android.provider.Settings
 import android.util.AttributeSet
 import android.view.Gravity
 import android.view.View
+import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.PopupMenu
@@ -21,23 +26,32 @@ import org.lineageos.tv.launcher.model.LeanbackAppInfo
 import org.lineageos.tv.launcher.utils.AppManager
 import kotlin.reflect.safeCast
 
-abstract class AppCardCommon @JvmOverloads constructor(
-    context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
-) : Card(context, attrs, defStyleAttr) {
-    abstract val menuResId: Int
+    abstract class AppCardCommon @JvmOverloads constructor(
+        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+    ) : Card(context, attrs, defStyleAttr) {
+        abstract val menuResId: Int
 
-    // Views
-    private val bannerView by lazy { findViewById<ImageView>(R.id.app_banner)!! }
-    private val cardContainer by lazy { findViewById<LinearLayout>(R.id.card_container)!! }
-    private val iconContainer by lazy { findViewById<LinearLayout>(R.id.app_with_icon)!! }
-    private val iconView by lazy { findViewById<ImageView>(R.id.app_icon)!! }
-    protected val nameView by lazy { findViewById<TextView>(R.id.app_name)!! }
+        // Views
+        protected val bannerView by lazy { findViewById<ImageView>(R.id.app_banner)!! }
+        protected val cardContainer by lazy { findViewById<LinearLayout>(R.id.card_container)!! }
+        protected val cardFrame by lazy { findViewById<FrameLayout>(R.id.card_frame)!! }
+        // Nullable: only cards based on app_card.xml have the preview layer
+        protected val previewView by lazy { findViewById<ImageView>(R.id.app_preview) }
+        protected val iconContainer by lazy { findViewById<LinearLayout>(R.id.app_with_icon)!! }
+        protected val iconView by lazy { findViewById<ImageView>(R.id.app_icon)!! }
+        protected val nameView by lazy {
+            findViewById<TextView>(R.id.app_name)!!.apply {
+                paintFlags = paintFlags or Paint.SUBPIXEL_TEXT_FLAG or Paint.LINEAR_TEXT_FLAG
+            }
+        }
 
-    private var uninstallable: Boolean = true
+        private var uninstallable: Boolean = true
+        protected var hasCustomIcon: Boolean = false
+        var hideable: Boolean = false
 
-    init {
-        setupNameMarquee()
-    }
+        init {
+            setupNameMarquee()
+        }
 
     private fun setupNameMarquee() {
         setOnFocusChangeListener { _, hasFocus ->
@@ -54,6 +68,9 @@ abstract class AppCardCommon @JvmOverloads constructor(
         super.setCardInfo(appInfo)
 
         // Reset
+        hasCustomIcon = false  // Reset custom icon flag for each card
+        previewView?.setImageBitmap(null)
+        previewView?.visibility = View.GONE
         bannerView.visibility = View.GONE
         iconContainer.visibility = View.VISIBLE
 
@@ -63,11 +80,21 @@ abstract class AppCardCommon @JvmOverloads constructor(
         if (appInfo is LeanbackAppInfo) {
             uninstallable = appInfo.isUninstallable()
 
-            if (appInfo.banner != null) {
-                // App with a banner
+            // If we have a custom icon (hasCustomIcon), show icon and hide banner
+            // Otherwise, show banner if available, or default icon
+            if (hasCustomIcon) {
+                // Custom icon available - show icon, hide banner
+                bannerView.visibility = View.GONE
+                iconContainer.visibility = View.VISIBLE
+            } else if (appInfo.banner != null) {
+                // No custom icon but have banner - show banner
                 bannerView.setImageDrawable(appInfo.banner)
                 bannerView.visibility = View.VISIBLE
                 iconContainer.visibility = View.GONE
+            } else {
+                // Default - show icon
+                bannerView.visibility = View.GONE
+                iconContainer.visibility = View.VISIBLE
             }
         }
     }
@@ -89,6 +116,11 @@ abstract class AppCardCommon @JvmOverloads constructor(
             popupMenu.menu.removeItem(R.id.menu_uninstall)
         }
 
+        // Hide option only on favorites carousel and all apps cards
+        if (!hideable) {
+            popupMenu.menu.removeItem(R.id.menu_hide)
+        }
+
         popupMenu.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.menu_uninstall -> {
@@ -108,6 +140,19 @@ abstract class AppCardCommon @JvmOverloads constructor(
 
                 R.id.menu_move -> {
                     FavoriteCard::class.safeCast(this)?.setMoving()
+                    true
+                }
+
+                R.id.menu_hide -> {
+                    AppManager.toggleHiddenApp(context, packageName, true)
+                    true
+                }
+
+                R.id.menu_app_info -> {
+                    val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                        data = Uri.fromParts("package", packageName, null)
+                    }
+                    context.startActivity(intent)
                     true
                 }
 

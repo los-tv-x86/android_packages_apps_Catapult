@@ -22,4 +22,9 @@ abstract class ModalActivity(layout: Int) : AppCompatActivity(layout) {
             height = WindowManager.LayoutParams.MATCH_PARENT
         }
     }
+
+    // No onUserLeaveHint finish: the hint also fires when this modal starts another
+    // activity (child settings screen, photo picker), which would destroy the back
+    // stack and drop activity results. Stale modal tasks are dismissed by MainActivity
+    // when the user returns home, so nothing lingers in the background.
 }

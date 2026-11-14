@@ -38,4 +38,68 @@
     <string name="connected">Đã kết nối</string>
     <string name="mic_assistant">Tìm kiếm bằng micrô</string>
     <string name="keyboard_assistant">Tìm kiếm bằng bàn phím</string>
+    <string name="system_settings">Cài đặt hệ thống</string>
+    <string name="launcher_settings">Cài đặt launcher</string>
+    <string name="appearance">Giao diện</string>
+    <string name="background">Nền</string>
+    <string name="background_default">Mặc định</string>
+    <string name="background_image">Hình ảnh</string>
+    <string name="select_image">Chọn hình ảnh</string>
+    <string name="selected_image">Đã chọn hình ảnh</string>
+    <string name="additional">Thêm</string>
+    <string name="external_launcher">Trình khởi chạy bên ngoài</string>
+    <string name="external_launcher_hint">Chọn một ứng dụng làm trình khởi chạy chính. Catapult vẫn sẽ xử lý nút Home và ứng dụng gần đây.</string>
+    <string name="external_launcher_none">Không dùng trình khởi chạy bên ngoài</string>
+    <string name="external_launcher_not_found">Không tìm thấy ứng dụng trình khởi chạy chính nào khác.</string>
+    <string name="external_launcher_picker">Catapult: chọn trình khởi chạy</string>
+    <string name="recent_apps">Ứng dụng gần đây</string>
+    <string name="recent_apps_enabled">Hiển thị lớp phủ ứng dụng gần đây</string>
+    <string name="recent_apps_size">Kích thước thẻ</string>
+    <string name="recent_apps_size_percent">%d%% chiều cao màn hình</string>
+    <string name="recent_apps_thumbnails">Hiển thị hình thu nhỏ</string>
+    <string name="recent_apps_thumbnails_hint">Xem trước màn hình cuối cùng của ứng dụng trên thẻ</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="hide_app">Ẩn ứng dụng này</string>
+    <string name="hidden_apps">Ứng dụng đã ẩn</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Thẻ ứng dụng</string>
+    <string name="app_cards_size">Kích thước thẻ ứng dụng</string>
+    <string name="favorite_cards_size">Kích thước thẻ yêu thích</string>
+    <string name="watch_next_cards_size">Kích thước thẻ kênh</string>
+    <string name="card_corner_radius">Độ bo góc của thẻ</string>
+    <string name="all_apps_grid_view">Lưới tất cả ứng dụng</string>
+    <string name="all_apps_grid_columns">Cột của lưới</string>
+    <string name="remove_from_channel">Xóa khỏi %1$s</string>
+    <string name="top_bar">Thanh trên cùng</string>
+    <string name="show_search_buttons">Hiển thị nút tìm kiếm</string>
+    <string name="show_vpn_button">Hiển thị nút VPN</string>
+    <string name="top_bar_auto_hide">Tự động ẩn thanh trên cùng khi cuộn</string>
+    <string name="show_clock">Hiển thị đồng hồ</string>
+    <string name="clock_size">Kích thước đồng hồ</string>
+    <string name="recent_tasks_title">Tác vụ gần đây (%1$d)</string>
+    <string name="close_all">Đóng tất cả</string>
+
+
+    <string name="android_settings">Cài đặt Android</string>
+    <string name="background_dynamic">Động (ô đang được chọn)</string>
+    <string name="background_blur_strength">Cường độ làm mờ</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Hiệu suất animation</string>
+    <string name="background_auto_perf">Hiệu suất thích ứng</string>
+    <string name="background_auto_perf_t0">Đầy đủ hiệu ứng: làm mờ GPU, Ken Burns mượt</string>
+    <string name="background_auto_perf_t1">Cân bằng: Ken Burns ở 20 fps</string>
+    <string name="background_auto_perf_t2">Nhẹ: chuyển làm mờ sang CPU</string>
+    <string name="background_auto_perf_t3">Tối giản: tắt Ken Burns, giữ làm mờ</string>
+    <string name="background_blur_prebaked">Làm mờ tính trước (CPU, tiết kiệm GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns ở 20 fps</string>
+    <string name="background_kb_pause">Tạm dừng Ken Burns khi chuyển nền</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Lớp phủ Catapult</string>
+    <string name="overlay_hint">Nhấn đúp HOME, ESC hoặc BACK để đóng</string>
+    <string name="remove_program_failed">Không thể xóa mục này</string>
+    <string name="vpn_no_clients">Không tìm thấy client VPN</string>
+    <string name="vpn">VPN</string>
+
 </resources>

@@ -8,6 +8,9 @@
         <item name="android:textAlignment">center</item>
         <item name="android:maxLines">1</item>
         <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@color/label_shadow</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowDy">1</item>
         <item name="android:visibility">invisible</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:marqueeRepeatLimit">marquee_forever</item>
@@ -15,11 +18,27 @@
         <item name="android:layout_marginTop">4dp</item>
     </style>
 
+    <style name="Widget.Catapult.SettingsSwitch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="android:background">@drawable/settings_item_focus</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">6dp</item>
+    </style>
+
+    <style name="Widget.Catapult.SettingsRadio" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/settings_item_focus</item>
+    </style>
+
+    <style name="Widget.Catapult.SettingsSlider" parent="Widget.Material3.Slider">
+        <item name="android:background">@drawable/settings_item_focus</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">6dp</item>
+    </style>
+
     <style name="SideActivityHeaderStyle" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="android:layout_marginTop">60dp</item>
-        <item name="android:layout_marginBottom">30dp</item>
-        <item name="android:layout_marginStart">20dp</item>
-        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
     </style>
 
     <style name="SystemOptionsButtonStyle">
@@ -58,9 +77,13 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">8dp</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
-        <item name="android:backgroundTint">?attr/colorSecondaryContainer</item>
-        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/top_bar_button_background</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:foreground">@null</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="android:minWidth">44dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:padding">8dp</item>
         <item name="android:stateListAnimator">@animator/app_card_state_animator</item>
         <item name="tint">@color/settings_color</item>
     </style>
@@ -71,9 +94,15 @@
         <item name="android:layout_margin">0dp</item>
         <item name="android:background">@drawable/search_button_background</item>
         <item name="android:backgroundTint">@null</item>
+        <item name="android:foreground">@null</item>
         <item name="android:stateListAnimator">@animator/search_button_state_animator</item>
         <item name="tint">@color/search_button_icon_color</item>
     </style>
 
-    <style name="PopupMenu" parent="Widget.Material3.PopupMenu" />
+    <style name="PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/rounded_background_popup</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">8dp</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
 </resources>

@@ -38,4 +38,66 @@
     <string name="connected">Povezano</string>
     <string name="mic_assistant">Išči z uporabo mikrofona</string>
     <string name="keyboard_assistant">Išči z uporabo tipkovnice</string>
+    <string name="system_settings">Nastavitve sistema</string>
+    <string name="launcher_settings">Nastavitve launchera</string>
+    <string name="appearance">Videz</string>
+    <string name="background">Ozadje</string>
+    <string name="background_default">Privzeto</string>
+    <string name="background_image">Slika</string>
+    <string name="select_image">Izberi sliko</string>
+    <string name="selected_image">Slika izbrana</string>
+    <string name="additional">Dodatno</string>
+    <string name="external_launcher">Zunanji zaganjalnik</string>
+    <string name="external_launcher_hint">Izberite aplikacijo kot začetni zaganjalnik. Catapult bo še naprej obravnaval gumb Domov in nedavne aplikacije.</string>
+    <string name="external_launcher_none">Ne uporabljaj zunanjega zaganjalnika</string>
+    <string name="external_launcher_not_found">Ni najdenih drugih aplikacij za začetni zaganjalnik.</string>
+    <string name="external_launcher_picker">Catapult: izberi zaganjalnik</string>
+    <string name="recent_apps">Nedavne aplikacije</string>
+    <string name="recent_apps_enabled">Prikaži prekrivanje nedavnih aplikacij</string>
+    <string name="recent_apps_size">Velikost kartic</string>
+    <string name="recent_apps_size_percent">%d%% višine zaslona</string>
+    <string name="recent_apps_thumbnails">Prikaži sličice</string>
+    <string name="recent_apps_thumbnails_hint">Predogled zadnjega zaslona aplikacije na karticah</string>
+    <string name="app_info">Podatki o aplikaciji</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Kartice aplikacij</string>
+    <string name="app_cards_size">Velikost kartic aplikacij</string>
+    <string name="favorite_cards_size">Velikost kartic priljubljenih</string>
+    <string name="watch_next_cards_size">Velikost kartic kanala</string>
+    <string name="card_corner_radius">Polmer kotov kartic</string>
+    <string name="all_apps_grid_view">Mreža vseh aplikacij</string>
+    <string name="all_apps_grid_columns">Stolpci mreže</string>
+    <string name="remove_from_channel">Odstrani iz %1$s</string>
+    <string name="top_bar">Zgornja vrstica</string>
+    <string name="show_search_buttons">Pokaži iskalne gumbe</string>
+    <string name="show_vpn_button">Pokaži gumb VPN</string>
+    <string name="top_bar_auto_hide">Samodejno skrij zgornjo vrstico med drsenjem</string>
+    <string name="show_clock">Pokaži uro</string>
+    <string name="clock_size">Velikost ure</string>
+    <string name="recent_tasks_title">Nedavne naloge (%1$d)</string>
+    <string name="close_all">Zapri vse</string>
+
+
+    <string name="android_settings">Nastavitve Androida</string>
+    <string name="background_dynamic">Dinamično ( fokusirana ploščica)</string>
+    <string name="background_blur_strength">Moč zameglitve</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Uspešnost animacij</string>
+    <string name="background_auto_perf">Prilagodljiva uspešnost</string>
+    <string name="background_auto_perf_t0">Polni učinki: zameglitev GPU, gladken Ken Burns</string>
+    <string name="background_auto_perf_t1">Uravnoteženo: Ken Burns pri 20 sličicah/s</string>
+    <string name="background_auto_perf_t2">Lahek: zameglitev prenesena na CPU</string>
+    <string name="background_auto_perf_t3">Minimalno: Ken Burns izkloplen, zameglitev ohranjena</string>
+    <string name="background_blur_prebaked">Vnaprej izračunana zameglitev (CPU, varčuje GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns pri 20 sličicah/s</string>
+    <string name="background_kb_pause">Premor Ken Burnsa med prehodi ozadja</string>
+    <string name="ok">V redu</string>
+    <string name="overlay_title">Prekrivni Catapult</string>
+    <string name="overlay_hint">Dvokratni pritisk HOME, ESC ali BACK zapre</string>
+    <string name="remove_program_failed">Tega predmeta ni bilo mogoče odstraniti</string>
+    <string name="vpn_no_clients">Ni najdenih odjemcev VPN</string>
+    <string name="vpn">VPN</string>
+
 </resources>

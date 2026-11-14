@@ -38,4 +38,66 @@
     <string name="connected">Connectat</string>
     <string name="mic_assistant">Cerca utilitzant el micròfon</string>
     <string name="keyboard_assistant">Cerca utilitzant el teclat</string>
+    <string name="system_settings">Configuració del sistema</string>
+    <string name="launcher_settings">Configuració del launcher</string>
+    <string name="appearance">Aparença</string>
+    <string name="background">Fons</string>
+    <string name="background_default">Predeterminat</string>
+    <string name="background_image">Imatge</string>
+    <string name="select_image">Seleccionar imatge</string>
+    <string name="selected_image">Imatge seleccionat</string>
+    <string name="additional">Addicional</string>
+    <string name="external_launcher">Llançador extern</string>
+    <string name="external_launcher_hint">Seleccioneu una aplicació com a llançador d\'inici. Catapult continuarà gestionant el botó d\'inici i les aplicacions recents.</string>
+    <string name="external_launcher_none">No utilitzar cap llançador extern</string>
+    <string name="external_launcher_not_found">No s\'han trobat altres aplicacions de llançador d\'inici.</string>
+    <string name="external_launcher_picker">Catapult: tria el llançador</string>
+    <string name="recent_apps">Aplicacions recents</string>
+    <string name="recent_apps_enabled">Mostra la superposició d\'aplicacions recents</string>
+    <string name="recent_apps_size">Mida de les targetes</string>
+    <string name="recent_apps_size_percent">%d%% de l\'alçada de la pantalla</string>
+    <string name="recent_apps_thumbnails">Mostra miniatures</string>
+    <string name="recent_apps_thumbnails_hint">Vista prèvia de l\'última pantalla de l\'aplicació a les targetes</string>
+    <string name="app_info">Informació de l\'aplicació</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Targetes d\'aplicacions</string>
+    <string name="app_cards_size">Mida de les targetes d\'aplicacions</string>
+    <string name="favorite_cards_size">Mida de les targetes de preferits</string>
+    <string name="watch_next_cards_size">Mida de les targetes de canal</string>
+    <string name="card_corner_radius">Radi de les cantonades de les targetes</string>
+    <string name="all_apps_grid_view">Quadrícula de totes les aplicacions</string>
+    <string name="all_apps_grid_columns">Columnes de la quadrícula</string>
+    <string name="remove_from_channel">Suprimeix de %1$s</string>
+    <string name="top_bar">Barra superior</string>
+    <string name="show_search_buttons">Mostra els botons de cerca</string>
+    <string name="show_vpn_button">Mostra el botó de VPN</string>
+    <string name="top_bar_auto_hide">Amaga automàticament la barra superior en desplaçar-se</string>
+    <string name="show_clock">Mostra el rellotge</string>
+    <string name="clock_size">Mida del rellotge</string>
+    <string name="recent_tasks_title">Tasques recents (%1$d)</string>
+    <string name="close_all">Tanca-ho tot</string>
+
+
+    <string name="android_settings">Configuració d\'Android</string>
+    <string name="background_dynamic">Dinàmic (mosaic enfocat)</string>
+    <string name="background_blur_strength">Intensitat del difuminat</string>
+    <string name="background_perf_title">Rendiment de l\'animació</string>
+    <string name="background_auto_perf">Rendiment adaptatiu</string>
+    <string name="background_auto_perf_t0">Efectes complets: difuminat GPU, Ken Burns suau</string>
+    <string name="background_auto_perf_t1">Equilibrat: Ken Burns a 20 fps</string>
+    <string name="background_auto_perf_t2">Lleuger: difuminat traslladat a la CPU</string>
+    <string name="background_auto_perf_t3">Mínim: Ken Burns desactivat, difuminat mantingut</string>
+    <string name="background_blur_prebaked">Difuminat precalculat (CPU, estalvia GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns a 20 fps</string>
+    <string name="background_kb_pause">Pausa Ken Burns durant els canvis de fons</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="ok">D\'acord</string>
+    <string name="overlay_title">Superposició de Catapult</string>
+    <string name="overlay_hint">Prem dos cops HOME, ESC o BACK per tancar</string>
+    <string name="remove_program_failed">No s\'ha pogut eliminar aquest element</string>
+    <string name="vpn">VPN</string>
+    <string name="vpn_no_clients">No s\'han trobat clients de VPN</string>
+
 </resources>

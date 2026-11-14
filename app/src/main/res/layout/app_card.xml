@@ -7,32 +7,36 @@
     android:id="@+id/card_container"
     android:layout_width="@dimen/app_card_width"
     android:layout_height="wrap_content"
-    android:layout_marginEnd="12dp"
-    android:clickable="true"
     android:clipChildren="false"
     android:clipToPadding="false"
-    android:longClickable="true"
-    android:orientation="vertical"
-    android:background="@drawable/card_border_only">
+    android:orientation="vertical">
 
     <FrameLayout
+        android:id="@+id/card_frame"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_card_height"
-        android:clipChildren="true"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
         android:clipToOutline="true">
+
+        <ImageView
+            android:id="@+id/app_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:visibility="gone" />
 
         <ImageView
             android:id="@+id/app_banner"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/card_border_only"
             android:backgroundTint="?attr/colorOnSecondaryContainer"
             android:clipToOutline="true"
+            android:scaleType="centerCrop"
             android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/app_with_icon"
-            android:background="@drawable/app_card_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

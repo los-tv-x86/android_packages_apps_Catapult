@@ -38,4 +38,68 @@
     <string name="connected">已连接</string>
     <string name="mic_assistant">使用麦克风搜索</string>
     <string name="keyboard_assistant">使用键盘搜索</string>
+    <string name="system_settings">系统设置</string>
+    <string name="launcher_settings">启动器设置</string>
+    <string name="appearance">外观</string>
+    <string name="background">背景</string>
+    <string name="background_default">默认</string>
+    <string name="background_image">图像</string>
+    <string name="select_image">选择图像</string>
+    <string name="selected_image">图像已选择</string>
+    <string name="additional">更多</string>
+    <string name="external_launcher">外部启动器</string>
+    <string name="external_launcher_hint">选择要作为主屏幕启动器的应用。Catapult 仍将处理主屏幕按钮和最近应用。</string>
+    <string name="external_launcher_none">不使用外部启动器</string>
+    <string name="external_launcher_not_found">未找到其他主屏幕启动器应用。</string>
+    <string name="external_launcher_picker">Catapult：选择启动器</string>
+    <string name="recent_apps">最近应用</string>
+    <string name="recent_apps_enabled">显示最近应用浮层</string>
+    <string name="recent_apps_size">卡片大小</string>
+    <string name="recent_apps_size_percent">屏幕高度的%d%%</string>
+    <string name="recent_apps_thumbnails">显示缩略图</string>
+    <string name="recent_apps_thumbnails_hint">在卡片中显示应用的最后画面</string>
+    <string name="app_info">应用信息</string>
+    <string name="hide_app">隐藏此应用</string>
+    <string name="hidden_apps">隐藏的应用</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">应用卡片</string>
+    <string name="app_cards_size">应用卡片大小</string>
+    <string name="favorite_cards_size">收藏卡片大小</string>
+    <string name="watch_next_cards_size">频道卡片大小</string>
+    <string name="card_corner_radius">卡片圆角半径</string>
+    <string name="all_apps_grid_view">所有应用网格</string>
+    <string name="all_apps_grid_columns">网格列数</string>
+    <string name="remove_from_channel">从%1$s中移除</string>
+    <string name="top_bar">顶部栏</string>
+    <string name="show_search_buttons">显示搜索按钮</string>
+    <string name="show_vpn_button">显示 VPN 按钮</string>
+    <string name="top_bar_auto_hide">滚动时自动隐藏顶部栏</string>
+    <string name="show_clock">显示时钟</string>
+    <string name="clock_size">时钟大小</string>
+    <string name="recent_tasks_title">最近任务（%1$d）</string>
+    <string name="close_all">全部关闭</string>
+
+
+    <string name="android_settings">Android 设置</string>
+    <string name="background_dynamic">动态（聚焦磁贴）</string>
+    <string name="background_blur_strength">模糊强度</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">动画性能</string>
+    <string name="background_auto_perf">自适应性能</string>
+    <string name="background_auto_perf_t0">完整效果：GPU 模糊，平滑 Ken Burns</string>
+    <string name="background_auto_perf_t1">均衡：Ken Burns 以 20 fps</string>
+    <string name="background_auto_perf_t2">轻量：模糊移到 CPU</string>
+    <string name="background_auto_perf_t3">极简：关闭 Ken Burns，保留模糊</string>
+    <string name="background_blur_prebaked">预烘焙模糊（CPU，节省 GPU）</string>
+    <string name="background_kb_low_fps">Ken Burns 以 20 fps</string>
+    <string name="background_kb_pause">背景切换期间暂停 Ken Burns</string>
+    <string name="ok">确定</string>
+    <string name="overlay_title">Catapult 叠层</string>
+    <string name="overlay_hint">双击 HOME、ESC 或 BACK 关闭</string>
+    <string name="remove_program_failed">无法移除此项目</string>
+    <string name="vpn_no_clients">未找到 VPN 客户端</string>
+    <string name="vpn">VPN</string>
+
 </resources>

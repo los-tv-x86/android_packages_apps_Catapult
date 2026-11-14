@@ -38,4 +38,70 @@
     <string name="connected">Подключено</string>
     <string name="mic_assistant">Поиск с помощью микрофона</string>
     <string name="keyboard_assistant">Поиск с помощью клавиатуры</string>
+    <string name="system_settings">Системные настройки</string>
+    <string name="launcher_settings">Настройки лаунчера</string>
+    <string name="appearance">Внешний вид</string>
+    <string name="background">Фон</string>
+    <string name="background_default">По умолчанию</string>
+    <string name="background_image">Изображение</string>
+    <string name="select_image">Выбрать изображение</string>
+    <string name="selected_image">Изображение выбрано</string>
+    <string name="recent_apps">Недавние приложения</string>
+    <string name="recent_apps_enabled">Показывать оверлей</string>
+    <string name="recent_apps_size">Размер карточек</string>
+    <string name="recent_apps_size_percent">%d%% от высоты экрана</string>
+    <string name="recent_apps_thumbnails">Показывать превью</string>
+    <string name="recent_apps_thumbnails_hint">Превью последнего экрана приложения в карточках</string>
+
+    <string name="additional">Дополнительно</string>
+    <string name="external_launcher">Сторонний лаунчер</string>
+    <string name="external_launcher_hint">Выберите приложение для использования в качестве домашнего лаунчера. Катапульт по-прежнему будет обрабатывать кнопку «Домой» и недавние приложения.</string>
+    <string name="external_launcher_none">Не использовать сторонний лаунчер</string>
+    <string name="external_launcher_not_found">Других домашних лаунчеров не найдено.</string>
+    <string name="external_launcher_picker">Catapult: выбор лаунчера</string>
+
+    <string name="app_info">Информация о приложении</string>
+    <string name="hide_app">Скрыть это приложение</string>
+    <string name="hidden_apps">Скрытые приложения</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Карточки приложений</string>
+    <string name="app_cards_size">Размер карточек приложений</string>
+    <string name="favorite_cards_size">Размер карточек избранного</string>
+    <string name="watch_next_cards_size">Размер карточек каналов</string>
+    <string name="card_corner_radius">Радиус скругления карточек</string>
+    <string name="all_apps_grid_view">Сетка всех приложений</string>
+    <string name="all_apps_grid_columns">Столбцов в сетке</string>
+    <string name="remove_from_channel">Удалить из «%1$s»</string>
+    <string name="top_bar">Верхняя панель</string>
+    <string name="show_search_buttons">Показать кнопки поиска</string>
+    <string name="show_vpn_button">Показать кнопку VPN</string>
+    <string name="top_bar_auto_hide">Автоскрытие верхней панели при прокрутке</string>
+    <string name="show_clock">Показать часы</string>
+    <string name="clock_size">Размер часов</string>
+    <string name="recent_tasks_title">Недавние задачи (%1$d)</string>
+    <string name="close_all">Закрыть все</string>
+
+
+    <string name="android_settings">Настройки Android</string>
+    <string name="background_dynamic">Динамический (плитка в фокусе)</string>
+    <string name="background_blur_strength">Сила размытия</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Производительность анимации</string>
+    <string name="background_auto_perf">Адаптивная производительность</string>
+    <string name="background_auto_perf_t0">Полные эффекты: GPU-размытие, плавный Ken Burns</string>
+    <string name="background_auto_perf_t1">Сбалансированный: Ken Burns при 20 fps</string>
+    <string name="background_auto_perf_t2">Лёгкий: размытие на CPU</string>
+    <string name="background_auto_perf_t3">Минимальный: Ken Burns выключен, размытие сохранено</string>
+    <string name="background_blur_prebaked">Предварительное размытие (CPU, экономит GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns при 20 fps</string>
+    <string name="background_kb_pause">Пауза Ken Burns при смене фона</string>
+    <string name="ok">ОК</string>
+    <string name="overlay_title">Оверлей Catapult</string>
+    <string name="overlay_hint">Двойное нажатие HOME, ESC или BACK для закрытия</string>
+    <string name="remove_program_failed">Не удалось удалить этот элемент</string>
+    <string name="vpn_no_clients">VPN-клиенты не найдены</string>
+    <string name="vpn">VPN</string>
+
 </resources>

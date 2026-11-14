@@ -44,7 +44,14 @@ class LauncherViewModel(application: Application) : AndroidViewModel(application
             )
         }
         .combine(LauncherRepository.hiddenChannels(context)) { previewChannels, hiddenChannels ->
-            previewChannels.filter { !hiddenChannels.contains(it.id) }
+            previewChannels.filter {
+                it.previewChannel != null || !hiddenChannels.contains(it.id)
+            }
+        }
+        .combine(LauncherRepository.enabledChannels(context)) { previewChannels, enabledChannels ->
+            previewChannels.filter {
+                it.previewChannel == null || enabledChannels.contains(it.id)
+            }
         }
         .flatMapLatest {
             channelFlow {
@@ -83,6 +90,14 @@ class LauncherViewModel(application: Application) : AndroidViewModel(application
             viewModelScope,
             started = SharingStarted.WhileSubscribed(),
             initialValue = listOf(),
+        )
+
+    val hiddenApps = LauncherRepository.hiddenApps(context)
+        .flowOn(Dispatchers.IO)
+        .stateIn(
+            viewModelScope,
+            started = SharingStarted.WhileSubscribed(),
+            initialValue = setOf(),
         )
 
     val watchNextPrograms = LauncherRepository.watchNextPrograms(context)

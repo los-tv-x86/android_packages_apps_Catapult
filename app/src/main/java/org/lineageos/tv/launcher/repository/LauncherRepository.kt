@@ -34,6 +34,10 @@ object LauncherRepository {
         context: Context,
     ) = SharedPreferencesFlows(context).favoriteAppsFlow()
 
+    fun hiddenApps(
+        context: Context,
+    ) = SharedPreferencesFlows(context).hiddenAppsFlow()
+
     fun knownChannels(
         context: Context,
     ) = SharedPreferencesFlows(context).knownChannelsFlow()
@@ -41,4 +45,8 @@ object LauncherRepository {
     fun hiddenChannels(
         context: Context,
     ) = SharedPreferencesFlows(context).hiddenChannelsFlow()
+
+    fun enabledChannels(
+        context: Context,
+    ) = SharedPreferencesFlows(context).enabledChannelsFlow()
 }

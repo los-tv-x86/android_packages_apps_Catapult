@@ -32,10 +32,72 @@
     <string name="home_role_request_dialog_neutral">Daha sonra</string>
     <string name="home_role_request_dialog_negative">Təkrar soruşma</string>
     <string name="unknown">Bilinmir</string>
-    <string name="no_notification_access">Bildiriş erişimi yoxdur</string>
-    <string name="allow_notification_access">Bildiriş erişiminə icazə ver</string>
+    <string name="no_notification_access">Bildiriş müraciət yoxdur</string>
+    <string name="allow_notification_access">Bildiriş müraciətinə icazə ver</string>
     <string name="dismiss">Rədd et</string>
     <string name="connected">Bağlantılıdır</string>
     <string name="mic_assistant">Mikrofon istifadə edərək axtar</string>
     <string name="keyboard_assistant">Klaviatura istifadə edərək axtar</string>
+    <string name="system_settings">Sistem parametrləri</string>
+    <string name="launcher_settings">Launcher parametrləri</string>
+    <string name="appearance">Görünüş</string>
+    <string name="background">Arxa plan</string>
+    <string name="background_default">Susmaya görə</string>
+    <string name="background_image">Şəkil</string>
+    <string name="select_image">Şəkil seçin</string>
+    <string name="selected_image">Şəkil seçildi</string>
+    <string name="additional">Əlavə</string>
+    <string name="external_launcher">Xarici başladıcı</string>
+    <string name="external_launcher_hint">Ana başladıcı kimi istifadə olunacaq tətbiq seçin. Catapult Home düyməsini və son tətbiqləri idarə etməyə davam edəcək.</string>
+    <string name="external_launcher_none">Xarici başladıcı istifadə etmə</string>
+    <string name="external_launcher_not_found">Başqa ana başladıcı tətbiqi tapılmadı.</string>
+    <string name="external_launcher_picker">Catapult: başladıcı seç</string>
+    <string name="recent_apps">Son tətbiqlər</string>
+    <string name="recent_apps_enabled">Son tətbiqlər qatını göstər</string>
+    <string name="recent_apps_size">Kart ölçüsü</string>
+    <string name="recent_apps_size_percent">Ekran hündürlüyünün %d%%</string>
+    <string name="recent_apps_thumbnails">Kiçik şəkilləri göstər</string>
+    <string name="recent_apps_thumbnails_hint">"İndi" kartlarda tətbiqin son ekranının ön görünüşü</string>
+    <string name="app_info">Tətbiq haqqında</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Tətbiq kartları</string>
+    <string name="app_cards_size">Tətbiq kartlarının ölçüsü</string>
+    <string name="favorite_cards_size">Sevimli kartların ölçüsü</string>
+    <string name="watch_next_cards_size">Kanal kartlarının ölçüsü</string>
+    <string name="card_corner_radius">Kart künclərinin radiusu</string>
+    <string name="all_apps_grid_view">Bütün tətbiqlərin toru</string>
+    <string name="all_apps_grid_columns">Tor sütunları</string>
+    <string name="remove_from_channel">%1$s siyahısından silin</string>
+    <string name="top_bar">Yuxarı panel</string>
+    <string name="show_search_buttons">Axtarış düymələrini göstər</string>
+    <string name="show_vpn_button">VPN düyməsini göstər</string>
+    <string name="top_bar_auto_hide">Sürüşdürmə zamanı yuxarı paneli avtomatik gizlət</string>
+    <string name="show_clock">Saatı göstər</string>
+    <string name="clock_size">Saat ölçüsü</string>
+    <string name="recent_tasks_title">Son tapşırıqlar (%1$d)</string>
+    <string name="close_all">Hamısını bağla</string>
+
+
+    <string name="android_settings">Android tənzimləmələri</string>
+    <string name="background_dynamic">Dinamik (fokuslanmış plaka)</string>
+    <string name="background_blur_strength">Bulanıqlıq gücü</string>
+    <string name="background_perf_title">Animasiya performansı</string>
+    <string name="background_auto_perf">Adaptiv performans</string>
+    <string name="background_auto_perf_t0">Tam effektlər: GPU bulanıqlığı, axıcı Ken Burns</string>
+    <string name="background_auto_perf_t1">Balanslı: Ken Burns 20 fps</string>
+    <string name="background_auto_perf_t2">Yüngül: bulanıqlıq CPU-ya köçürüldü</string>
+    <string name="background_auto_perf_t3">Minimum: Ken Burns bağlı, bulanıqlıq qorunur</string>
+    <string name="background_blur_prebaked">Əvvəlcədən hesablanmış bulanıqlıq (CPU, GPU-ya qənaət)</string>
+    <string name="background_kb_low_fps">Ken Burns 20 fps</string>
+    <string name="background_kb_pause">Fon keçidləri zamanı Ken Burns-ü dayandır</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Catapult Örtüyü</string>
+    <string name="overlay_hint">Bağlamaq üçün HOME, ESC və ya BACK-a iki dəfə basın</string>
+    <string name="remove_program_failed">Bu element silinə bilmədi</string>
+    <string name="vpn">VPN</string>
+    <string name="vpn_no_clients">VPN müştəriləri tapılmadı</string>
+
 </resources>

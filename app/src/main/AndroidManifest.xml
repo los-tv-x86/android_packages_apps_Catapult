@@ -25,7 +25,10 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.READ_TV_LISTINGS" />
+    <uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -35,6 +38,20 @@
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.REGISTER_WINDOW_MANAGER_LISTENERS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.REMOVE_TASKS" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <!-- Task overview thumbnails: getTaskSnapshotManager() enforces these two. -->
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"
+        tools:ignore="ProtectedPermissions" />
 
     <queries>
         <intent>
@@ -45,11 +62,15 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.HOME" />
+        </intent>
     </queries>
 
     <application
         android:name=".CatapultApplication"
-        android:banner="@mipmap/ic_launcher"
+        android:banner="@drawable/tv_banner"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -57,19 +78,34 @@
 
         <activity
             android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout|uiMode|density|layoutDirection|fontScale|locale"
             android:excludeFromRecents="true"
-            android:exported="true"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:stateNotNeeded="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
+
+        <activity
+            android:name=".RecentsActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize|screenLayout|uiMode|density|layoutDirection|fontScale|locale"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:exported="true" />
+
         <activity
             android:name=".AddFavoriteActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".HiddenAppsActivity"
             android:theme="@style/Theme.Catapult.SideActivity" />
 
         <activity
@@ -87,6 +123,45 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".LauncherSettingsActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".AppearanceActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".BackgroundActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".CardsSettingsActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".TopBarSettingsActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".RecentAppsSettingsActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".AdditionalSettingsActivity"
+            android:theme="@style/Theme.Catapult.SideActivity" />
+
+        <activity
+            android:name=".ExternalLauncherActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/external_launcher_picker"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name=".notification.TvNotificationListener"
             android:exported="false"
@@ -95,6 +170,11 @@
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
+
+        <service
+            android:name=".GlobalHotkeyService"
+            android:foregroundServiceType="specialUse"
+            android:exported="false" />
 
     </application>
 

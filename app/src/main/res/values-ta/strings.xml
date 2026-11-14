@@ -1,41 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <string name="settings">அமைப்புகள்</string>
-    <string name="favorites">விரும்பியவை</string>
-    <string name="all_apps">எல்லாச்செயலியும்</string>
-    <string name="uninstall">நிறுவநீக்கு</string>
-    <string name="mark_as_favorite">விருப்பக்குறிவி</string>
-    <string name="modify_favorites_short">விரும்பியவைமாற்று</string>
-    <string name="move">நகர்த்து</string>
-    <string name="remove_favorite">விருப்பநீக்கு</string>
-    <string name="watch_next">அடுத்துப்பார்</string>
-    <string name="modify_channels">வரிசைம்மாற்று</string>
+    <string name="favorites">பிடித்தவை</string>
+    <string name="all_apps">செயலிகள் யாவும்</string>
+    <string name="uninstall">நிறுவநீக்குக</string>
+    <string name="mark_as_favorite">பிடித்ததாகக் குறிக்க</string>
+    <string name="modify_favorites_short">பிடித்தவற்றை மாற்றுக</string>
+    <string name="move">நகர்த்துக</string>
+    <string name="remove_favorite">பிடித்ததை அகற்றுக</string>
+    <string name="watch_next">அடுத்துப் பார்க்க</string>
+    <string name="modify_channels">அலைத்தடங்களை மாற்றுக</string>
     <string name="channel_title">%1$s: %2$s</string>
-    <string name="order_channels_guide">அலைத்தடம் வரிசையமைக்கத் தேவையானதை நெடுங்கழுத்தி வேண்டியவிடம் நகர்த்து.</string>
-    <string name="search">தேடு</string>
-    <string name="modify_favorites">விருப்பச்செயலி மாற்று</string>
+    <string name="order_channels_guide">அலைத்தடங்களை வரிசைப்படுத்த, விரும்பியதை நீண்ட நேரம் அழுத்தி, விரும்பிய நிலைக்கு நகர்த்துக.</string>
+    <string name="search">தேடுக</string>
+    <string name="modify_favorites">உமக்குப் பிடித்த செயலிகளை மாற்றுக</string>
     <string name="system_modal">முறைமைத் தேர்வுகள்</string>
-    <string name="sleep">துஞ்சு</string>
-    <string name="no_notifications">அறிவிப்பிலது</string>
+    <string name="sleep">உறக்கமுறை</string>
+    <string name="no_notifications">அறிவிப்புகள் இல்லை</string>
     <string name="network_status">பிணையம்\n%1$s</string>
     <string name="bluetooth_status">துணைக்கருவிகள்\n%1$s</string>
-    <string name="not_connected">தொடர்பிலது</string>
-    <string name="enabled">இயங்குவது</string>
-    <string name="disabled">முடங்குவது</string>
-    <string name="app_permissions_toast">பயனர் இசைவிலது.</string>
-    <string name="home_role_request_dialog_title">முகப்பாக்கு</string>
-    <string name="home_role_request_dialog_message">இச்செயலி முதன்மை முகப்பாக இயலக்கூடியது; மாற்ற அமைப்புகளைத் திறக்கவா?</string>
-    <string name="home_role_request_dialog_neutral">பின்பு</string>
-    <string name="home_role_request_dialog_negative">இனி வினவாதே</string>
-    <string name="unknown">அறியாதது</string>
-    <string name="no_notification_access">அறிவிப்பு இசைவிலது</string>
-    <string name="allow_notification_access">அறிவிப்பு இசைவளி</string>
-    <string name="dismiss">விலக்கு</string>
-    <string name="connected">தொடர்புற்றது</string>
-    <string name="mic_assistant">ஒலிவாங்கி கொண்டு தேடு</string>
-    <string name="keyboard_assistant">விசைப்பலகை கொண்டு தேடு</string>
+    <string name="not_connected">இணைக்கப்படவில்லை</string>
+    <string name="enabled">இயல்விக்கப்பட்டது</string>
+    <string name="disabled">முடக்கப்பட்டது</string>
+    <string name="app_permissions_toast">பயனரால் அனுமதிகள் வழங்கப்படவில்லை.</string>
+    <string name="home_role_request_dialog_title">தொடங்கியாக அமைக்க</string>
+    <string name="home_role_request_dialog_message">இச்செயலி இயல்புநிலை முகப்பு பயன்பாடாகச் செயற்பட முடியும், தொடங்கிச் செயலியை மாற்ற அமைப்புகள் செயலியைத் திறக்க விரும்புகிறீரா?</string>
+    <string name="home_role_request_dialog_neutral">பிறகு</string>
+    <string name="home_role_request_dialog_negative">மீண்டும் கேட்காதே</string>
+    <string name="unknown">அறியப்படா</string>
+    <string name="no_notification_access">அறிவிப்பு அணுகல் இல்லை</string>
+    <string name="allow_notification_access">அறிவிப்பு அணுகலை அனுமதிக்க</string>
+    <string name="dismiss">விலக்குக</string>
+    <string name="connected">இணைக்கப்பட்டது</string>
+    <string name="mic_assistant">ஒலிவாங்கியைப் பயன்படுத்தித் தேடுக</string>
+    <string name="keyboard_assistant">விசைப்பலகையைப் பயன்படுத்தித் தேடுக</string>
+    <string name="system_settings">அமைப்புகள்</string>
+    <string name="launcher_settings">இயக்கி அமைப்புகள்</string>
+    <string name="appearance">தோற்றம்</string>
+    <string name="background">பின்னணி</string>
+    <string name="background_default">இயல்புநிலை</string>
+    <string name="background_image">படம்</string>
+    <string name="select_image">படத்தை தேர்வு செய்யவும்</string>
+    <string name="selected_image">படம் தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="app_info">ஆப்ஸ் தகவல்</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">செயலின் கார்டுகள்</string>
+    <string name="app_cards_size">செயலின் கார்டுகளின் அளவு</string>
+    <string name="favorite_cards_size">பிடித்த கார்டுகளின் அளவு</string>
+    <string name="watch_next_cards_size">சேனல் அட்டைகளின் அளவு</string>
+    <string name="card_corner_radius">கார்டின் மூலை வளைவளவு</string>
+    <string name="all_apps_grid_view">அனைத்து செயலிகளின் கட்டகம்</string>
+    <string name="all_apps_grid_columns">கட்டக நிரல்கள்</string>
+
+    <string name="recent_apps_thumbnails">சிறுபடங்களைக் காட்டு</string>
+    <string name="recent_apps_thumbnails_hint">அட்டைகளில் செயலியின் கடைசி திரையின் முன்தோற்றம்</string>
+    <string name="remove_from_channel">%1$s-இலிருந்து நீக்கு</string>
+    <string name="top_bar">மேல் பட்டி</string>
+    <string name="show_search_buttons">தேடல் பொத்தான்களைக் காட்டு</string>
+    <string name="show_vpn_button">VPN பொத்தானைக் காட்டு</string>
+    <string name="top_bar_auto_hide">உருட்டும்போது மேல் பட்டியைத் தானாக மறை</string>
+    <string name="show_clock">கடிகாரத்தைக் காட்டு</string>
+    <string name="clock_size">கடிகாரத்தின் அளவு</string>
+    <string name="recent_tasks_title">சமீபத்திய பணிகள் (%1$d)</string>
+    <string name="close_all">அனைத்தையும் மூடு</string>
+
+
+    <string name="android_settings">அண்ட்ராய்டு அமைப்புகள்</string>
+    <string name="background_dynamic">டினாமிக் (குவியப்பட்ட ஓடு)</string>
+    <string name="background_blur_strength">மங்கலித்தல் அளவு</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">அசைவூட்ட செயல்திறன்</string>
+    <string name="background_auto_perf">மாறக்கூடிய செயல்திறன்</string>
+    <string name="background_auto_perf_t0">முழு விளைவுகள்: GPU மங்கலித்தல், சீரான Ken Burns</string>
+    <string name="background_auto_perf_t1">சமநிலை: Ken Burns 20 fps</string>
+    <string name="background_auto_perf_t2">லேசான: மங்கலித்தல் CPU-க்கு</string>
+    <string name="background_auto_perf_t3">மிகக் குறைவு: Ken Burns அணைக்கப்பட்டது, மங்கலித்தல் இருக்கும்</string>
+    <string name="background_blur_prebaked">முன்பகர்கப்பட்ட மங்கலித்தல் (CPU, GPU சேமிப்பு)</string>
+    <string name="background_kb_low_fps">Ken Burns 20 fps</string>
+    <string name="background_kb_pause">பின்னணி மாற்றங்களிஓதும் Ken Burns இடைநிறுத்து</string>
+    <string name="ok">சரி</string>
+    <string name="overlay_title">கட்டபல்ட் மேலடுக்கு</string>
+    <string name="overlay_hint">மூட HOME, ESC அல்லது BACK ஐ இரு முறை அழுத்து</string>
+    <string name="remove_program_failed">இந்த உருப்படியை நீக்க முடியவில்லை</string>
+    <string name="vpn_no_clients">VPN வாடிக்கையாளர்கள் இல்லை</string>
+    <string name="additional">கூடுதல்</string>
+    <string name="external_launcher">வெளி லாంచர்</string>
+    <string name="external_launcher_hint">முகப்பு லாంచராக ஒரு செயலியைத் தேர்ந்தெடுக்கவும். Catapult ஹோம் பொத்தான் மற்றும் சமீபத்திய செயலிகளை கையாளும்.</string>
+    <string name="external_launcher_none">வெளி லாஞ்சரைப் பயன்படுத்த வேண்டாம்</string>
+    <string name="external_launcher_not_found">வேறு முகப்பு லாஞ்சர் செயலிகள் எதுவும் இல்லை.</string>
+    <string name="external_launcher_picker">கட்டபல்ட்: லாஞ்சரைத் தேர்ந்தெடு</string>
+    <string name="recent_apps">சமீபத்திய செயலிகள்</string>
+    <string name="recent_apps_enabled">சமீபத்திய செயலி மேலடுக்கைக் காட்டு</string>
+    <string name="recent_apps_size">அட்டை அளவு</string>
+    <string name="recent_apps_size_percent">திரையின் உயரத்தில் %d%%</string>
+    <string name="vpn">VPN</string>
+
 </resources>

@@ -38,4 +38,68 @@
     <string name="connected">Conectat</string>
     <string name="mic_assistant">Caută folosind microfonul</string>
     <string name="keyboard_assistant">Caută folosind tastatura</string>
+    <string name="system_settings">Setări sistem</string>
+    <string name="launcher_settings">Setări launcher</string>
+    <string name="appearance">Aspect</string>
+    <string name="background">Fundal</string>
+    <string name="background_default">Implicit</string>
+    <string name="background_image">Imagine</string>
+    <string name="select_image">Selectați imaginea</string>
+    <string name="selected_image">Imagine selectată</string>
+    <string name="additional">Suplimentar</string>
+    <string name="external_launcher">Launcher extern</string>
+    <string name="external_launcher_hint">Selectați o aplicație ca launcher de pornire. Catapult va gestiona în continuare butonul Home și aplicațiile recente.</string>
+    <string name="external_launcher_none">Nu folosiți un launcher extern</string>
+    <string name="external_launcher_not_found">Nu s-au găsit alte aplicații de launcher de pornire.</string>
+    <string name="external_launcher_picker">Catapult: alegeți launcher</string>
+    <string name="recent_apps">Aplicații recente</string>
+    <string name="recent_apps_enabled">Afișați suprapunerea aplicațiilor recente</string>
+    <string name="recent_apps_size">Dimensiune carduri</string>
+    <string name="recent_apps_size_percent">%d%% din înălțimea ecranului</string>
+    <string name="recent_apps_thumbnails">Afișați miniaturi</string>
+    <string name="recent_apps_thumbnails_hint">Previzualizarea ultimului ecran al aplicației în carduri</string>
+    <string name="app_info">Informații despre aplicație</string>
+    <string name="hide_app">Ascunde această aplicație</string>
+    <string name="hidden_apps">Aplicații ascunse</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Carduri aplicații</string>
+    <string name="app_cards_size">Dimensiune carduri aplicații</string>
+    <string name="favorite_cards_size">Dimensiune carduri favorite</string>
+    <string name="watch_next_cards_size">Dimensiunea cardurilor de canal</string>
+    <string name="card_corner_radius">Raza colțurilor cardurilor</string>
+    <string name="all_apps_grid_view">Grilă cu toate aplicațiile</string>
+    <string name="all_apps_grid_columns">Coloanele grilei</string>
+    <string name="remove_from_channel">Elimină din %1$s</string>
+    <string name="top_bar">Bara superioară</string>
+    <string name="show_search_buttons">Afișează butoanele de căutare</string>
+    <string name="show_vpn_button">Afișează butonul VPN</string>
+    <string name="top_bar_auto_hide">Ascunde automat bara superioară la derulare</string>
+    <string name="show_clock">Afișează ceasul</string>
+    <string name="clock_size">Dimensiunea ceasului</string>
+    <string name="recent_tasks_title">Activități recente (%1$d)</string>
+    <string name="close_all">Închide toate</string>
+
+
+    <string name="android_settings">Setări Android</string>
+    <string name="background_dynamic">Dinamic (plocha focusată)</string>
+    <string name="background_blur_strength">Intensitatea estompării</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Performanța animațiilor</string>
+    <string name="background_auto_perf">Performanță adaptivă</string>
+    <string name="background_auto_perf_t0">Efecte complete: estompare GPU, Ken Burns lin</string>
+    <string name="background_auto_perf_t1">Echilibrat: Ken Burns la 20 fps</string>
+    <string name="background_auto_perf_t2">Ușor: estomparea mutată pe CPU</string>
+    <string name="background_auto_perf_t3">Minim: Ken Burns oprit, estomparea păstrată</string>
+    <string name="background_blur_prebaked">Estompare precalculată (CPU, economisește GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns la 20 fps</string>
+    <string name="background_kb_pause">Întrerupe Ken Burns în timpul tranzițiilor de fundal</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Suprapunere Catapult</string>
+    <string name="overlay_hint">Apasă de două ori HOME, ESC sau BACK pentru a închide</string>
+    <string name="remove_program_failed">Nu s-a putut elimina acest element</string>
+    <string name="vpn_no_clients">Nu s-au găsit clienți VPN</string>
+    <string name="vpn">VPN</string>
+
 </resources>

@@ -38,4 +38,68 @@
     <string name="connected">Connecté</string>
     <string name="mic_assistant">Rechercher à l\'aide du microphone</string>
     <string name="keyboard_assistant">Rechercher à l\'aide du clavier</string>
+    <string name="system_settings">Paramètres système</string>
+    <string name="launcher_settings">Paramètres du launcher</string>
+    <string name="appearance">Apparence</string>
+    <string name="background">Arrière-plan</string>
+    <string name="background_default">Par défaut</string>
+    <string name="background_image">Image</string>
+    <string name="select_image">Sélectionner une image</string>
+    <string name="selected_image">Image sélectionnée</string>
+    <string name="additional">Supplémentaire</string>
+    <string name="external_launcher">Launcher externe</string>
+    <string name="external_launcher_hint">Sélectionnez une application comme launcher d\'accueil. Catapult continuera de gérer le bouton Accueil et les applications récentes.</string>
+    <string name="external_launcher_none">Ne pas utiliser de launcher externe</string>
+    <string name="external_launcher_not_found">Aucune autre application de launcher d\'accueil trouvée.</string>
+    <string name="external_launcher_picker">Catapult : choisir le launcher</string>
+    <string name="recent_apps">Applications récentes</string>
+    <string name="recent_apps_enabled">Afficher l\'overlay des applications récentes</string>
+    <string name="recent_apps_size">Taille des cartes</string>
+    <string name="recent_apps_size_percent">%d%% de la hauteur de l\'écran</string>
+    <string name="recent_apps_thumbnails">Afficher les vignettes</string>
+    <string name="recent_apps_thumbnails_hint">Aperçu du dernier écran de l\'application sur les cartes</string>
+    <string name="app_info">Infos sur l\'appli</string>
+    <string name="hide_app">Masquer cette appli</string>
+    <string name="hidden_apps">Applis masquées</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Cartes d\'applications</string>
+    <string name="app_cards_size">Taille des cartes d\'applications</string>
+    <string name="favorite_cards_size">Taille des cartes de favoris</string>
+    <string name="watch_next_cards_size">Taille des cartes de chaîne</string>
+    <string name="card_corner_radius">Rayon des coins des cartes</string>
+    <string name="all_apps_grid_view">Grille de toutes les applications</string>
+    <string name="all_apps_grid_columns">Colonnes de la grille</string>
+    <string name="remove_from_channel">Retirer de %1$s</string>
+    <string name="top_bar">Barre supérieure</string>
+    <string name="show_search_buttons">Afficher les boutons de recherche</string>
+    <string name="show_vpn_button">Afficher le bouton VPN</string>
+    <string name="top_bar_auto_hide">Masquer automatiquement la barre supérieure lors du défilement</string>
+    <string name="show_clock">Afficher l\'horloge</string>
+    <string name="clock_size">Taille de l\'horloge</string>
+    <string name="recent_tasks_title">Tâches récentes (%1$d)</string>
+    <string name="close_all">Tout fermer</string>
+
+
+    <string name="android_settings">Paramètres Android</string>
+    <string name="background_dynamic">Dynamique (tuile sélectionnée)</string>
+    <string name="background_blur_strength">Intensité du flou</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Performance des animations</string>
+    <string name="background_auto_perf">Performance adaptative</string>
+    <string name="background_auto_perf_t0">Effets complets : flou GPU, Ken Burns fluide</string>
+    <string name="background_auto_perf_t1">Équilibré : Ken Burns à 20 i/s</string>
+    <string name="background_auto_perf_t2">Léger : flou traité par le CPU</string>
+    <string name="background_auto_perf_t3">Minimal : Ken Burns désactivé, flou conservé</string>
+    <string name="background_blur_prebaked">Flou précalculé (CPU, ménage le GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns à 20 i/s</string>
+    <string name="background_kb_pause">Pause de Ken Burns pendant les changements de fond</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Superposition Catapult</string>
+    <string name="overlay_hint">Double appui sur HOME, ÉCHAP ou RETOUR pour fermer</string>
+    <string name="remove_program_failed">Impossible de supprimer cet élément</string>
+    <string name="vpn_no_clients">Aucun client VPN trouvé</string>
+    <string name="vpn">VPN</string>
+
 </resources>

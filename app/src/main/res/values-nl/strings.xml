@@ -35,4 +35,73 @@
     <string name="connected">Verbonden</string>
     <string name="mic_assistant">Zoek met behulp van microfoon</string>
     <string name="keyboard_assistant">Zoeken met behulp van toetsenbord</string>
+    <string name="system_settings">Systeeminstellingen</string>
+    <string name="launcher_settings">Launcher-instellingen</string>
+    <string name="appearance">Uiterlijk</string>
+    <string name="background">Achtergrond</string>
+    <string name="background_default">Standaard</string>
+    <string name="background_image">Afbeelding</string>
+    <string name="select_image">Selecteer afbeelding</string>
+    <string name="selected_image">Afbeelding geselecteerd</string>
+    <string name="additional">Extra</string>
+    <string name="external_launcher">Externe launcher</string>
+    <string name="external_launcher_hint">Selecteer een app om te gebruiken als startlauncher. Catapult blijft de Home-knop en recente apps afhandelen.</string>
+    <string name="external_launcher_none">Geen externe launcher gebruiken</string>
+    <string name="external_launcher_not_found">Geen andere start-launcher-apps gevonden.</string>
+    <string name="external_launcher_picker">Catapult: kies launcher</string>
+    <string name="recent_apps">Recente apps</string>
+    <string name="recent_apps_enabled">Overlay recente apps tonen</string>
+    <string name="recent_apps_size">Kaartgrootte</string>
+    <string name="recent_apps_size_percent">%d%% van de schermhoogte</string>
+    <string name="recent_apps_thumbnails">Miniaturen tonen</string>
+    <string name="recent_apps_thumbnails_hint">Voorbeeld van het laatste app-scherm op de kaarten</string>
+    <string name="app_info">App-info</string>
+    <string name="hide_app">Deze app verbergen</string>
+    <string name="hidden_apps">Verborgen apps</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">App-kaarten</string>
+    <string name="app_cards_size">Grootte van de app-kaarten</string>
+    <string name="favorite_cards_size">Grootte van de favoritenkaarten</string>
+    <string name="watch_next_cards_size">Grootte van kanaarkaarten</string>
+    <string name="card_corner_radius">Hoekstraal van kaarten</string>
+    <string name="all_apps_grid_view">Rasterweergave van alle apps</string>
+    <string name="all_apps_grid_columns">Rasterkolommen</string>
+    <string name="remove_from_channel">Verwijderen uit %1$s</string>
+    <string name="top_bar">Bovenbalk</string>
+    <string name="show_search_buttons">Zoekknoppen tonen</string>
+    <string name="show_vpn_button">VPN-knop tonen</string>
+    <string name="top_bar_auto_hide">Bovenbalk automatisch verbergen bij scrollen</string>
+    <string name="show_clock">Klok tonen</string>
+    <string name="clock_size">Grootte van de klok</string>
+    <string name="recent_tasks_title">Recente taken (%1$d)</string>
+    <string name="close_all">Alles sluiten</string>
+
+
+    <string name="android_settings">Android-instellingen</string>
+    <string name="background_dynamic">Dynamisch (gefocuste tegel)</string>
+    <string name="background_blur_strength">Intensiteit van vervaging</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Animatieprestaties</string>
+    <string name="background_auto_perf">Adaptieve prestaties</string>
+    <string name="background_auto_perf_t0">Alle effecten: GPU-vervaging, vloeiende Ken Burns</string>
+    <string name="background_auto_perf_t1">Gebalanceerd: Ken Burns op 20 fps</string>
+    <string name="background_auto_perf_t2">Licht: vervaging naar CPU verplaatst</string>
+    <string name="background_auto_perf_t3">Minimaal: Ken Burns uit, vervaging behouden</string>
+    <string name="background_blur_prebaked">Vervaging vooraf berekend (CPU, bespaart GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns op 20 fps</string>
+    <string name="background_kb_pause">Ken Burns pauzeren tijdens achtergrondovergangen</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Catapult-overlay</string>
+    <string name="overlay_hint">Dubbeldruk op HOME, ESC of BACK sluit</string>
+    <string name="remove_program_failed">Kon dit item niet verwijderen</string>
+    <string name="vpn_no_clients">Geen VPN-clients gevonden</string>
+    <string name="vpn">VPN</string>
+
+
+    <string name="all_apps">Alle apps</string>
+    <string name="mark_as_favorite">Markeren als favoriet</string>
+    <string name="channel_title">%1$s: %2$s</string>
+
 </resources>

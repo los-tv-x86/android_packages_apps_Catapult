@@ -38,4 +38,69 @@
     <string name="connected">Tilkopla</string>
     <string name="mic_assistant">Søk med mikrofonen</string>
     <string name="keyboard_assistant">Søk med tastaturet</string>
+    <string name="app_info">Informasjon om appen</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">App-kort</string>
+    <string name="app_cards_size">Storleik på app-kort</string>
+    <string name="favorite_cards_size">Storleik på favoritt-kort</string>
+    <string name="watch_next_cards_size">Kortstorleik for kanalar</string>
+    <string name="card_corner_radius">Hjørneradius på kort</string>
+    <string name="all_apps_grid_view">Rutenett for alle appar</string>
+    <string name="all_apps_grid_columns">Rutekolonner</string>
+
+    <string name="recent_apps_thumbnails">Vis miniatyrar</string>
+    <string name="recent_apps_thumbnails_hint">Førehandsvising av appen sin siste skjerm på korta</string>
+    <string name="remove_from_channel">Fjern frå %1$s</string>
+    <string name="top_bar">Toppelinje</string>
+    <string name="show_search_buttons">Vis søkjeknappar</string>
+    <string name="show_vpn_button">Vis VPN-knapp</string>
+    <string name="top_bar_auto_hide">Skjul toppelinja automatisk ved rulling</string>
+    <string name="show_clock">Vis klokke</string>
+    <string name="clock_size">Storleik på klokke</string>
+    <string name="recent_tasks_title">Nylege oppgåver (%1$d)</string>
+    <string name="close_all">Lukk alt</string>
+
+
+    <string name="background">Bakgrunn</string>
+    <string name="background_default">Standard</string>
+    <string name="background_image">Bilete</string>
+    <string name="background_dynamic">Dynamisk (fokuserte fliser)</string>
+    <string name="background_blur_strength">Styrke på uskarpleik</string>
+    <string name="select_image">Vel bilete</string>
+    <string name="selected_image">Biletet er valt</string>
+    <string name="appearance">Utsjånad</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Rørsleytelse</string>
+    <string name="background_auto_perf">Tilpassa ytelse</string>
+    <string name="background_auto_perf_t0">Full effektar: GPU-uskarpleik, smooth Ken Burns</string>
+    <string name="background_auto_perf_t1">Balansert: Ken Burns ved 20 fps</string>
+    <string name="background_auto_perf_t2">Lett: uskarpleik lagd til CPU</string>
+    <string name="background_auto_perf_t3">Minimal: Ken Burns slått av, uskarpleik behald</string>
+    <string name="background_blur_prebaked">Førehandsrekna uskarpleik (CPU, sparer GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns ved 20 fps</string>
+    <string name="background_kb_pause">Pause Ken Burns under bakgrunnsbytter</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Catapult-overlegg</string>
+    <string name="overlay_hint">Dobbelttrykk HOME, ESC eller BACK for å lukka</string>
+    <string name="remove_program_failed">Kunne ikkje fjerna denne posten</string>
+    <string name="vpn_no_clients">Fann ingen VPN-klientar</string>
+    <string name="additional">Meir</string>
+    <string name="external_launcher">Ekstern oppstart</string>
+    <string name="external_launcher_hint">Vel ein app som heim oppstart. Catapult handterer framleis Home-knappen og nylege appar.</string>
+    <string name="external_launcher_none">Ikkje bruk ekstern oppstart</string>
+    <string name="external_launcher_not_found">Fann ingen andre heim-oppstart-appar.</string>
+    <string name="external_launcher_picker">Catapult: vel oppstart</string>
+    <string name="recent_apps">Nylege appar</string>
+    <string name="recent_apps_enabled">Vis overlegg for nylege appar</string>
+    <string name="recent_apps_size">Kortstorleik</string>
+    <string name="recent_apps_size_percent">%d %% av skjermhøgda</string>
+    <string name="system_settings">Systeminnstillingar</string>
+    <string name="launcher_settings">Oppstartsinnstillingar</string>
+
+
+    <string name="android_settings">Android-innstillingar</string>
+    <string name="vpn">VPN</string>
+
 </resources>

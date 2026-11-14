@@ -38,4 +38,68 @@
     <string name="connected">Połączono</string>
     <string name="mic_assistant">Szukaj używając mikrofonu</string>
     <string name="keyboard_assistant">Szukaj za pomocą klawiatury</string>
+    <string name="system_settings">Ustawienia systemowe</string>
+    <string name="launcher_settings">Ustawienia launchera</string>
+    <string name="appearance">Wygląd</string>
+    <string name="background">Tło</string>
+    <string name="background_default">Domyślne</string>
+    <string name="background_image">Obraz</string>
+    <string name="select_image">Wybierz obraz</string>
+    <string name="selected_image">Obraz wybrany</string>
+    <string name="additional">Dodatkowe</string>
+    <string name="external_launcher">Zewnętrzny launcher</string>
+    <string name="external_launcher_hint">Wybierz aplikację jako launcher główny. Catapult nadal będzie obsługiwać przycisk Home i ostatnie aplikacje.</string>
+    <string name="external_launcher_none">Nie używaj zewnętrznego launchera</string>
+    <string name="external_launcher_not_found">Nie znaleziono innych aplikacji launchera.</string>
+    <string name="external_launcher_picker">Catapult: wybierz launcher</string>
+    <string name="recent_apps">Ostatnie aplikacje</string>
+    <string name="recent_apps_enabled">Pokaż nakładkę ostatnich aplikacji</string>
+    <string name="recent_apps_size">Rozmiar kart</string>
+    <string name="recent_apps_size_percent">%d%% wysokości ekranu</string>
+    <string name="recent_apps_thumbnails">Pokaż miniatury</string>
+    <string name="recent_apps_thumbnails_hint">Podglad ostatniego ekranu aplikacji na kartach</string>
+<string name="app_info">Informacje o aplikacji</string>
+    <string name="hide_app">Ukryj tę aplikację</string>
+    <string name="hidden_apps">Ukryte aplikacje</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">Karty aplikacji</string>
+    <string name="app_cards_size">Rozmiar kart aplikacji</string>
+    <string name="favorite_cards_size">Rozmiar kart ulubionych</string>
+    <string name="watch_next_cards_size">Rozmiar kart kanałów</string>
+    <string name="card_corner_radius">Promień narożników kart</string>
+    <string name="all_apps_grid_view">Siatka wszystkich aplikacji</string>
+    <string name="all_apps_grid_columns">Kolumny siatki</string>
+    <string name="remove_from_channel">Usuń z %1$s</string>
+    <string name="top_bar">Pasek górny</string>
+    <string name="show_search_buttons">Pokaż przyciski wyszukiwania</string>
+    <string name="show_vpn_button">Pokaż przycisk VPN</string>
+    <string name="top_bar_auto_hide">Automatycznie ukrywaj pasek górny podczas przewijania</string>
+    <string name="show_clock">Pokaż zegar</string>
+    <string name="clock_size">Rozmiar zegara</string>
+    <string name="recent_tasks_title">Ostatnie zadania (%1$d)</string>
+    <string name="close_all">Zamknij wszystkie</string>
+
+
+    <string name="android_settings">Ustawienia Androida</string>
+    <string name="background_dynamic">Dynamiczne (kafelka w fokusie)</string>
+    <string name="background_blur_strength">Siła rozmycia</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Wydajność animacji</string>
+    <string name="background_auto_perf">Adaptacyjna wydajność</string>
+    <string name="background_auto_perf_t0">Pełne efekty: rozmycie na GPU, płynny Ken Burns</string>
+    <string name="background_auto_perf_t1">Zbalansowane: Ken Burns przy 20 fps</string>
+    <string name="background_auto_perf_t2">Lekkie: rozmycie przeniesione na CPU</string>
+    <string name="background_auto_perf_t3">Minimalne: Ken Burns wyłączony, rozmycie zachowane</string>
+    <string name="background_blur_prebaked">Wstępne rozmycie (CPU, oszczędza GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns przy 20 fps</string>
+    <string name="background_kb_pause">Pauza Ken Burnsa podczas zmian tła</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Nakładka Catapult</string>
+    <string name="overlay_hint">Podwójne naciśnięcie HOME, ESC lub BACK zamyka</string>
+    <string name="remove_program_failed">Nie można usunąć tego elementu</string>
+    <string name="vpn_no_clients">Nie znaleziono klientów VPN</string>
+    <string name="vpn">VPN</string>
+
 </resources>

@@ -38,4 +38,68 @@
     <string name="connected">Verbunden</string>
     <string name="mic_assistant">Suche mittels Mikrofon</string>
     <string name="keyboard_assistant">Suche mittels Tastatur</string>
+    <string name="system_settings">Systemeinstellungen</string>
+    <string name="launcher_settings">Launcher-Einstellungen</string>
+    <string name="appearance">Erscheinungsbild</string>
+    <string name="background">Hintergrund</string>
+    <string name="background_default">Standard</string>
+    <string name="background_image">Bild</string>
+    <string name="select_image">Bild auswählen</string>
+    <string name="selected_image">Bild ausgewählt</string>
+    <string name="additional">Zusätzlich</string>
+    <string name="external_launcher">Externer Launcher</string>
+    <string name="external_launcher_hint">Wähle eine App als Home-Launcher. Catapult verarbeitet weiterhin die Home-Taste und die letzten Apps.</string>
+    <string name="external_launcher_none">Keinen externen Launcher verwenden</string>
+    <string name="external_launcher_not_found">Keine weiteren Home-Launcher-Apps gefunden.</string>
+    <string name="external_launcher_picker">Catapult: Launcher wählen</string>
+    <string name="recent_apps">Letzte Apps</string>
+    <string name="recent_apps_enabled">Letzte-Apps-Overlay anzeigen</string>
+    <string name="recent_apps_size">Kartengröße</string>
+    <string name="recent_apps_size_percent">%d%% der Bildschirmhöhe</string>
+    <string name="recent_apps_thumbnails">Miniaturansichten anzeigen</string>
+    <string name="recent_apps_thumbnails_hint">Vorschau des letzten App-Bildschirms auf den Karten</string>
+    <string name="app_info">App-Info</string>
+    <string name="hide_app">Diese App ausblenden</string>
+    <string name="hidden_apps">Ausgeblendete Apps</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">App-Karten</string>
+    <string name="app_cards_size">Größe der App-Karten</string>
+    <string name="favorite_cards_size">Größe der Favoriten-Karten</string>
+    <string name="watch_next_cards_size">Kanalkartengröße</string>
+    <string name="card_corner_radius">Eckradius der Karten</string>
+    <string name="all_apps_grid_view">Raster aller Apps</string>
+    <string name="all_apps_grid_columns">Rasterspalten</string>
+    <string name="remove_from_channel">Aus %1$s entfernen</string>
+    <string name="top_bar">Leiste oben</string>
+    <string name="show_search_buttons">Suchschaltflächen anzeigen</string>
+    <string name="show_vpn_button">VPN-Schaltfläche anzeigen</string>
+    <string name="top_bar_auto_hide">Leiste beim Scrollen automatisch ausblenden</string>
+    <string name="show_clock">Uhr anzeigen</string>
+    <string name="clock_size">Größe der Uhr</string>
+    <string name="recent_tasks_title">Letzte Aufgaben (%1$d)</string>
+    <string name="close_all">Alle schließen</string>
+
+
+    <string name="android_settings">Android-Einstellungen</string>
+    <string name="background_dynamic">Dynamisch (fokussierte Kachel)</string>
+    <string name="background_blur_strength">Weichzeichnerstärke</string>
+    <string name="card_size_percent">%d %%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">Animationsleistung</string>
+    <string name="background_auto_perf">Adaptive Leistung</string>
+    <string name="background_auto_perf_t0">Volle Effekte: GPU-Weichzeichner, flüsscher Ken-Burns</string>
+    <string name="background_auto_perf_t1">Ausgewogen: Ken Burns mit 20 fps</string>
+    <string name="background_auto_perf_t2">Schlank: Weichzeichner auf CPU</string>
+    <string name="background_auto_perf_t3">Minimal: Ken Burns aus, Weichzeichner bleibt</string>
+    <string name="background_blur_prebaked">Weichzeichner vorrechnen (CPU, entlastet GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns mit 20 fps</string>
+    <string name="background_kb_pause">Ken Burns bei Hintergrundwechsel pausieren</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Catapult-Overlay</string>
+    <string name="overlay_hint">HOME, ESC oder BACK doppelt drücken zum Schließen</string>
+    <string name="remove_program_failed">Dieses Element konnte nicht entfernt werden</string>
+    <string name="vpn_no_clients">Keine VPN-Clients gefunden</string>
+    <string name="vpn">VPN</string>
+
 </resources>

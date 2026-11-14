@@ -38,4 +38,68 @@
     <string name="connected">מחובר</string>
     <string name="mic_assistant">השתמש במיקרופון לחיפוש</string>
     <string name="keyboard_assistant">השתמש במקלדת לחיפוש</string>
+    <string name="system_settings">הגדרות מערכת</string>
+    <string name="launcher_settings">הגדרות המזנק</string>
+    <string name="appearance">מראה</string>
+    <string name="background">רקע</string>
+    <string name="background_default">ברירת מחדל</string>
+    <string name="background_image">תמונה</string>
+    <string name="select_image">בחר תמונה</string>
+    <string name="selected_image">תמונה נבחרה</string>
+    <string name="additional">נוסף</string>
+    <string name="external_launcher">משגר חיצוני</string>
+    <string name="external_launcher_hint">בחר אפליקציה לשמש כמשגר הבית. Catapult ימשיך לטפל בלחצן Home ובאפליקציות האחרונות.</string>
+    <string name="external_launcher_none">אל תשתמש במשגר חיצוני</string>
+    <string name="external_launcher_not_found">לא נמצאו אפליקציות משגר בית אחרות.</string>
+    <string name="external_launcher_picker">Catapult: בחירת משגר</string>
+    <string name="recent_apps">אפליקציות אחרונות</string>
+    <string name="recent_apps_enabled">הצג שכבת-על של אפליקציות אחרונות</string>
+    <string name="recent_apps_size">גודל כרטיסים</string>
+    <string name="recent_apps_size_percent">%d%% מגובה המסך</string>
+    <string name="recent_apps_thumbnails">הצג תמונות ממוזערות</string>
+    <string name="recent_apps_thumbnails_hint">תצוגה מקדימה של המסך האחרון של האפליקציה בכרטיסים</string>
+    <string name="app_info">פרטי האפליקציה</string>
+    <string name="hide_app">הסתר אפליקציה זו</string>
+    <string name="hidden_apps">אפליקציות מוסתרות</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">כרטיסי אפליקציות</string>
+    <string name="app_cards_size">גודל כרטיסי אפליקציות</string>
+    <string name="favorite_cards_size">גודל כרטיסי מועדפים</string>
+    <string name="watch_next_cards_size">גודל כרטיסי ערוץ</string>
+    <string name="card_corner_radius">רדיוס פינות הכרטיסים</string>
+    <string name="all_apps_grid_view">תצוגת רשת של כל היישומונים</string>
+    <string name="all_apps_grid_columns">עמודות הרשת</string>
+    <string name="remove_from_channel">הסרה מ־%1$s</string>
+    <string name="top_bar">סרגל עליון</string>
+    <string name="show_search_buttons">הצגת כפתורי החיפוש</string>
+    <string name="show_vpn_button">הצגת כפתור VPN</string>
+    <string name="top_bar_auto_hide">הסתרה אוטומטית של הסרגל העליון בעת גלילה</string>
+    <string name="show_clock">הצגת השעון</string>
+    <string name="clock_size">גודל השעון</string>
+    <string name="recent_tasks_title">משימות אחרונות (%1$d)</string>
+    <string name="close_all">סגור הכל</string>
+
+
+    <string name="android_settings">הגדרות Android</string>
+    <string name="background_dynamic">דינמי (אריח ממוקד)</string>
+    <string name="background_blur_strength">עוצמת טשטוש</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">ביצועי האנימציה</string>
+    <string name="background_auto_perf">ביצועים מסתגלים</string>
+    <string name="background_auto_perf_t0">אפקטים מלאים: טשטוש GPU, Ken Burns חלק</string>
+    <string name="background_auto_perf_t1">מאוזן: Ken Burns ב־20 פ״ש</string>
+    <string name="background_auto_perf_t2">קל: הטשטוש הועבר ל־CPU</string>
+    <string name="background_auto_perf_t3">מינימלי: Ken Burns כבוי, הטשטוש נשמר</string>
+    <string name="background_blur_prebaked">טשטוש מראש (CPU, חוסך GPU)</string>
+    <string name="background_kb_low_fps">Ken Burns ב־20 פ״ש</string>
+    <string name="background_kb_pause">השהיית Ken Burns במהלך מעברי רקע</string>
+    <string name="ok">אישור</string>
+    <string name="overlay_title">הכיסוי של Catapult</string>
+    <string name="overlay_hint">לחיצה כפולה על HOME,‏ ESC או BACK סוגרת</string>
+    <string name="remove_program_failed">לא ניתן להסיר פריט זה</string>
+    <string name="vpn_no_clients">לא נמצאו לקוחות VPN</string>
+    <string name="vpn">VPN</string>
+
 </resources>

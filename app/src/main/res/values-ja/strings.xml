@@ -38,4 +38,68 @@
     <string name="connected">接続済み</string>
     <string name="mic_assistant">マイクを使って検索</string>
     <string name="keyboard_assistant">キーボードで検索</string>
+    <string name="system_settings">システム設定</string>
+    <string name="launcher_settings">ランチャー設定</string>
+    <string name="appearance">外観</string>
+    <string name="background">背景</string>
+    <string name="background_default">デフォルト</string>
+    <string name="background_image">画像</string>
+    <string name="select_image">画像を選択</string>
+    <string name="selected_image">画像が選択されました</string>
+    <string name="additional">追加</string>
+    <string name="external_launcher">外部ランチャー</string>
+    <string name="external_launcher_hint">ホームランチャーとして使用するアプリを選択します。Catapultは引き続きHomeボタンと最近のアプリを処理します。</string>
+    <string name="external_launcher_none">外部ランチャーを使用しない</string>
+    <string name="external_launcher_not_found">他のホームランチャーアプリが見つかりません。</string>
+    <string name="external_launcher_picker">Catapult: ランチャーを選択</string>
+    <string name="recent_apps">最近のアプリ</string>
+    <string name="recent_apps_enabled">最近のアプリのオーバーレイを表示</string>
+    <string name="recent_apps_size">カードサイズ</string>
+    <string name="recent_apps_size_percent">画面の高さの%d%%</string>
+    <string name="recent_apps_thumbnails">サムネイルを表示</string>
+    <string name="recent_apps_thumbnails_hint">カードにアプリの最後の画面を表示します</string>
+    <string name="app_info">アプリ情報</string>
+    <string name="hide_app">このアプリを隠す</string>
+    <string name="hidden_apps">隠したアプリ</string>
+
+    <!-- App cards settings -->
+    <string name="app_cards">アプリカード</string>
+    <string name="app_cards_size">アプリカードのサイズ</string>
+    <string name="favorite_cards_size">お気に入りカードのサイズ</string>
+    <string name="watch_next_cards_size">チャンネルカードサイズ</string>
+    <string name="card_corner_radius">カードの角の半径</string>
+    <string name="all_apps_grid_view">すべてのアプリをグリッド表示</string>
+    <string name="all_apps_grid_columns">グリッドの列数</string>
+    <string name="remove_from_channel">%1$s から削除</string>
+    <string name="top_bar">上部バー</string>
+    <string name="show_search_buttons">検索ボタンを表示</string>
+    <string name="show_vpn_button">VPN ボタンを表示</string>
+    <string name="top_bar_auto_hide">スクロール時に上部バーを自動で隠す</string>
+    <string name="show_clock">時計を表示</string>
+    <string name="clock_size">時計のサイズ</string>
+    <string name="recent_tasks_title">最近のタスク (%1$d)</string>
+    <string name="close_all">すべて閉じる</string>
+
+
+    <string name="android_settings">Android設定</string>
+    <string name="background_dynamic">動的（フォーカス中のタイル）</string>
+    <string name="background_blur_strength">ぼかしの強さ</string>
+    <string name="card_size_percent">%d%%</string>
+    <string name="clock_size_sp">%1$d sp</string>
+    <string name="background_perf_title">アニメーションのパフォーマンス</string>
+    <string name="background_auto_perf">adaptive パフォーマンス</string>
+    <string name="background_auto_perf_t0">フル効果: GPUぼかし、滑らかなKen Burns</string>
+    <string name="background_auto_perf_t1">バランス: Ken Burnsを20 fpsで</string>
+    <string name="background_auto_perf_t2">軽量: ぼかしをCPUに移動</string>
+    <string name="background_auto_perf_t3">最小: Ken Burnsオフ、ぼかしは維持</string>
+    <string name="background_blur_prebaked">事前ぼかし（CPU使用、GPUを節約）</string>
+    <string name="background_kb_low_fps">Ken Burnsを20 fpsで</string>
+    <string name="background_kb_pause">背景の切り替え中はKen Burnsを一時停止</string>
+    <string name="ok">OK</string>
+    <string name="overlay_title">Catapultオーバーレイ</string>
+    <string name="overlay_hint">HOME、ESC、BACKのダブル押しで閉じる</string>
+    <string name="remove_program_failed">この項目を削除できませんでした</string>
+    <string name="vpn_no_clients">VPNクライアントが見つかりません</string>
+    <string name="vpn">VPN</string>
+
 </resources>
